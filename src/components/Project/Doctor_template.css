@@ -1,0 +1,286 @@
+.Doctor_template{
+    display: flex;
+    position: relative;
+    width: 100%;
+ }
+.alphabates{
+     position: relative;
+     color: #15374B;
+     font-size: 26px;
+     font-weight: 750;
+     word-spacing: 4.5px;
+     line-height: 35px;
+     padding-top: 50px;
+     padding-right: 10px;
+     padding-left: 120px; 
+ }
+ .alphabates a{
+     background-color: #FFF;
+     color: #15374B;
+     text-decoration: none;
+     margin-left: 65px;
+ }
+ .alphabates a:hover{
+    background-color: #FFF;
+    color: #15374B;
+ }
+ .alphabates a.active_class{
+    background-color: #f16853;
+    color: #FFF;
+    border-bottom: 1px solid black;
+    border-width:medium;
+    width: auto;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ .Template{
+    position: relative;
+    width: 500px;
+    height: 180px;
+    margin-left: 90px;
+    letter-spacing: 5.8px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    align-content: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #f16853;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.Detailing {
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+    hyphens: manual;
+}
+.leftdetailing {
+    width: 1000px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 220px;
+    align-items: center;
+    color: #15374B;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.leftdetailing hr{
+    float: left;
+    width: 900px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.doctoroinfoimage1{
+    display: flex;
+    padding-top: 30px;
+}
+.drrightimg1{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.drrightimg1 a{
+    color: #15374B;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.drrightimg1 a:hover{
+    color: #f16853;
+}
+.drrightimg1 span{
+  color: #7A7A7A;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.rightdetailing {
+    height: 2300px;
+    width: 765px;
+    margin-right: 152px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.Heading1 {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top:  50px;
+    padding-bottom: 05px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+}
+.Search input {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    white-space: nowrap;
+	height: 26px;
+    width: 470px;
+    border-right: none;
+    background-color: #EEEEEE;
+}
+.Search ::placeholder{
+    font-size: 18px;
+    padding-left: 20px;
+    color: #c0b5b5;
+}
+.Search button {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:  0px;
+    padding-bottom: 12px;
+    margin-right: 78px;
+    white-space: nowrap;
+	height: 70px;
+    width: 50px;
+    border-left: none;
+    background-color: #EEEEEE;
+}
+.Specialist {
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:  05px;
+    padding-bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.9;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+  
+}
+.Specialistname a{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+.Specialistname a:hover{
+    color: #f16853;
+    background-color: #EEEEEE;
+}
+.Specialistname hr {
+    float: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #e7e0e0;
+    width: 580px;
+}
+.icon1 {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 70px ;
+    margin-left: 60px;    
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 580px;
+    height: 230px;
+    background-color: #15374B;
+    color: #FFF;
+}
+.icon1Name {
+    margin-left: 200px;  
+    text-align: left;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.8em;
+    letter-spacing: -0.6px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 8px;
+}
+.icon2 {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 60px ;
+    margin-left: 60px;    
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 580px;
+    height: 220px;
+    background-color: #E12255;
+    color: #FFF;
+}
+.icon2Name {
+    margin-left: 200px;  
+    text-align: left;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.8em;
+    letter-spacing: -0.6px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 14px;
+}
+.department {
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:  80px;
+    padding-bottom: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+}
+.departmentName a{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+.departmentName a:hover{
+    color: #f16853;
+    background-color: #EEEEEE;
+}
+.departmentName hr{
+    float: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ebe9e9;
+}

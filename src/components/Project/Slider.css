@@ -1,0 +1,85 @@
+.posters {
+    position: relative;
+    overflow: hidden;
+  }
+  
+.posters img {
+    display: block;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.posters:hover img{
+    width: 365px;
+    transform: scale(1.2);
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f4f4;
+    overflow: hidden;
+    width: 97%;
+    height: 5%;
+    transition: .5s ease;
+}
+  
+  .posters:hover .overlay {
+    height: 65%;
+  }
+  
+.text {
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.text h4{
+        float: left;
+        color: black;
+        font-size: 24px;
+        line-height: 0%;
+  }
+.text span{
+      float: left;
+      font-size: 20px;
+      padding-bottom: 52px;
+      color: #EA6657;
+  }
+.text p{
+      float: left;
+      text-transform: capitalize;
+      font-size: 18px;
+      letter-spacing: 0.2px;
+      color: #7a7a7a;
+  }
+.icon{
+    float: left;
+    margin-top: 30px;
+}
+.icon a{
+    padding-left: 25px;
+    color: #061f2e;
+}
+.icon a:hover {
+  
+    color: #f16853;
+    background-color: #f8f4f4;
+}
+.slick-prev {
+  left: -52px !important;
+
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.next-slick-arrow,
+.prev-slick-arrow  {
+  color: #f16853;
+  font-size: 48px;
+}

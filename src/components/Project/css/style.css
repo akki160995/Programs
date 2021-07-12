@@ -1,0 +1,202 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    max-width: 100%;
+}
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+
+.header_flex{
+    position:relative;
+    background-color: #15374b;
+    color: #fff;
+}
+.poster_size{
+    width:100%;
+    position: relative;
+    left: 0px;
+}
+.colbox{
+    width: 100%;
+    background-color:#eee;
+    color:#fff;
+    
+}
+.Header_element{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f16853;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 5.8px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.col{  
+    font-weight: 400;
+    hyphens: manual;
+    letter-spacing: normal;
+    line-height: 21px;
+    list-style-type: none;
+    text-transform: none;
+    box-sizing: border-box;
+    color: rgb(122, 122, 122);
+    display: block;
+    font-family: "Work Sans", sans-serif;
+    
+}
+.main_heading{
+    
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.main_heading small{
+    font-size: 10px; 
+    text-decoration: none;
+}
+.bottom_line{
+    border-bottom: solid 5px;
+}
+.inline_heading{
+color: rgb(21, 55, 75);
+font-family: "Work Sans", sans-serif;
+font-size: 1rem;
+padding-left: 5rem;
+margin-top: 4rem;
+margin-bottom: 4rem;
+font-style: normal;
+font-weight: 500;
+hyphens: manual;
+letter-spacing: normal;
+line-height: 2.1rem;
+text-align: left
+}
+
+.nameabout{
+    margin-left: 10%;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.nameabout a{
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+ 
+    font-family: "Work Sans", sans-serif;
+}
+.nameabout hr{
+    margin-bottom: 1rem;
+   margin-left: 0rem;
+    width: 70%;
+}
+.nameabout a:hover{
+    color: #f16853;
+}
+
+.Search_text{
+    color:#15374b;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.stetoscope{
+    position: relative;
+    background-color:#15374b;
+    width: 80%;
+    height: 150px;
+    margin: 10%;
+    padding-right: 50px;
+}
+.stetoscope img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: -70px;   
+}
+.ambulance{
+    position: relative;
+    background-color:#e12255;
+    width: 80%;
+    height: 150px;
+    margin: 10%;
+    padding-right: 50px;
+}
+.ambulance img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: -70px;   
+}
+.icon_text{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    hyphens: manual;
+    letter-spacing: -0.6px;
+    line-height: 26px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 40px;
+text-align: left;
+}
+.left-Heading{
+    font-family: "Work Sans", sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: rgb(122, 122, 122);
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.left-Heading span{
+    color:rgb(21, 55, 75);
+}
+.left-inlineHeading{
+    box-sizing: border-box;
+color: rgb(21, 55, 75);
+display: inline;
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+hyphens: manual;
+letter-spacing: normal;
+line-height: 21.6px;
+text-align: left;
+text-decoration: rgb(21, 55, 75);
+text-transform: none;
+}
+p ,label{
+    box-sizing: border-box;
+color: rgb(122, 122, 122);
+font-family: "Work Sans", sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+hyphens: manual;
+letter-spacing: normal;
+line-height: 19.5px;
+margin-bottom: 14.4px;
+margin-top: 0px;
+text-align: justify;
+text-transform: capitalize
+}

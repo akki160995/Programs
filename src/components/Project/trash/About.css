@@ -1,0 +1,420 @@
+.Overview{
+   display: flex;
+   position: relative;
+   width: 100%;
+}
+.Overview .leftview{
+    position: relative;
+    color: #7A7A7A;
+    letter-spacing: 1.9px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Work-Sans", sans-serif;
+    padding-top: 90px;
+    padding-right: 05px;
+    padding-left: 25px; 
+    border-left: 1px solid #ddd9d9;
+    height: 120px;
+    margin-left: 150px;
+}
+.Overview .rightview{
+    position: relative;
+    width: 502px;
+    height: 138px;
+    margin-left: 765px;
+    letter-spacing: 5.8px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    align-content: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #f16853;
+    padding-left: 150px;
+    padding-right: 55px;
+    padding-top: 80px;
+}
+.Info {
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+    hyphens: manual;
+}
+.Info .infoleft {
+    width: 1000px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-right: 26px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.Info .infoleft .title4 {
+    padding-top: 10px;
+    color: #15374B;
+    align-items: left;
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    word-spacing: 1.5px;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.Info .infoleft .para7 {
+    padding-right: 40px;
+    color: #15374B;
+    align-items: left;
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    word-spacing: 3.5px;
+}
+.Info .infoleft .para2 {
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 3.0px;
+    letter-spacing: 0.5px;
+    line-height: 3vh;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: justify;
+}
+.Info .infoleft .video1 {
+    /*position: relative;
+    background-image: url(E:/React_Programs/demo-project/src/Project/Images/bgimage.jpg);
+    overflow: hidden;
+    transform: translateZ(0);
+    box-sizing: border-box;
+    direction: ltr;
+    unicode-bidi: isolate;*/
+    margin-bottom: 80px;
+    width:980px;
+    height:530px; 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.Info .infoleft .profile {
+    margin-bottom: 50px;
+    color: #15374B;
+    align-items: left;
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 0.9px;
+    word-spacing: 1.5px;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;   
+}
+.Info .infoleft .Lists {
+    margin-bottom: 80px;
+    color: #7A7A7A;
+    font-family: "Work Sans", Sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;   
+}
+.leftlists a {
+    padding-right: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #7A7A7A;
+    background-color: #FFF;
+}
+.leftlists a:hover {
+    color: #f16853;
+    background-color: #FFF;
+}
+.leftlists hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+    color: #f5f4f4;
+}
+
+.Lead {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #15374B;
+    align-items: left;
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 0.9px;
+    word-spacing: 1.5px;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;   
+}
+.infoleft .para3 {
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 3.0px;
+    letter-spacing: 0.5px;
+    line-height: 3vh;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: justify;
+}
+.PatientGraph{
+    border: 1px solid #f3eded;
+}
+.Pname{
+    padding-left: 50px;
+    padding-top: 50px;
+    line-height: 60%;
+    letter-spacing: 0.9px;
+}
+.Pname span {
+    color: #15374B;
+    font-size: 34px;
+    font-weight: 600;
+}
+.graph{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.inforight {
+    height: 2575px;
+    width: 728px;
+    margin-right: 147px;
+    margin-bottom: 20px;
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.specialist {
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:  100px;
+    padding-bottom: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.9;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+  
+}
+.specialistName a{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+.specialistName a:hover{
+    color: #f16853;
+    background-color: #EEEEEE;
+}
+.specialistName hr {
+    float: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ebe9e9;
+}
+.department {
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:  90px;
+    padding-bottom: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+}
+.departmentName a{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+.departmentName a:hover{
+    color: #f16853;
+    background-color: #EEEEEE;
+}
+.departmentName hr{
+    float: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ebe9e9;
+}
+.search {
+    padding-right: 80px;
+    padding-left: 70px;
+    padding-top:  60px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+}
+.sbutton input {
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top:  21px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    white-space: nowrap;
+	height: 25px;
+    width: 462px;
+    border-right: none;
+    background-color: #EEEEEE;
+}
+.sbutton ::placeholder{
+    font-size: 18px;
+    color: #7A7A7A;
+}
+.sbutton button {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:  0px;
+    padding-bottom: 11px;
+    margin-right: 78px;
+    white-space: nowrap;
+	height: 70px;
+    width: 50px;
+    border-left: none;
+    background-color: #EEEEEE;
+}
+.option a{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+.option a:hover{
+    color: #f16853;
+    background-color: #EEEEEE;
+}
+.option hr{
+    float: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ebe9e9;
+}
+.icon1 {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 70px ;
+    margin-left: 60px;    
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 580px;
+    height: 230px;
+    background-color: #15374B;
+    color: #FFF;
+}
+.icon1Name {
+    margin-left: 200px;  
+    text-align: left;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.8em;
+    letter-spacing: -0.6px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 8px;
+}
+.icon2 {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 60px ;
+    margin-left: 60px;    
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 580px;
+    height: 220px;
+    background-color: #E12255;
+    color: #FFF;
+}
+.icon2Name {
+    margin-left: 200px;  
+    text-align: left;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.8em;
+    letter-spacing: -0.6px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 14px;
+}
+.DoctorSlider {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 60px ;
+    margin-left: 150px; 
+    margin-bottom: 80px;   
+    width: 1730px;
+    height: auto;
+    border: 1px solid #ebe9e9;
+    background-color: #FFF;
+}
+.SliderName {
+    position: relative;
+    color: #7A7A7A;
+    letter-spacing: 1.3px;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+.slider{
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-bottom: 4vh;
+}
+
+

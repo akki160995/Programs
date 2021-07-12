@@ -1,0 +1,32 @@
+
+  img{
+    position: relative;
+    float: left;
+    left:100px;
+    width:200px;
+  } 
+ .navbar-brand {
+  color:#15374b;
+  filter: brightness( 0% ) contrast( 200% ) saturate( 200% ) blur( 0px ) hue-rotate( 134deg );
+}
+.navbar-brand:hover{
+  filter: brightness( 101% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+  }
+
+  .nav-link{
+    align-items: center;
+    font-size: 12px;
+    font-style: normal;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    font-weight: 500;
+    color: rgb(122, 122, 122);
+    float: right;
+  }
+
+  .active { color:#f16853;
+  }
+
+  

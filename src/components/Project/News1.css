@@ -1,0 +1,116 @@
+.Menu_Namenews{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #153748;
+    transition:  border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    font-family: "Work Sans", Sans-serif;
+    position: relative;
+}
+.namenewsdisplay{
+    flex: 50%;
+}
+.namenewsdisplay h1{
+    text-decoration: none;
+    font-style: normal;
+    position: relative;
+    color: #FFFF;
+    text-align: left;
+    font-family: sans-serif;
+    font-size:32px;
+    letter-spacing: 3.3px;
+    padding-top: 40px;
+    margin-top: 90px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.namenewsdisplay h3{
+    padding-left: 150px;
+
+}
+.namenewsdisplay h3 a{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: none;
+    text-decoration: none;
+}
+.namenewsdisplay h3 a:hover{
+    color: white;
+}
+.namenewsdisplay h3 span{
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+}
+.imgnewsvideo{
+    padding-right: 270px ;
+
+}
+.showcaseinfo{
+    margin-left: 450px;
+    margin-top: 70px;
+}
+.showcaseinfo p{
+    color: #7A7A7A;
+    font-family: "work Sans",sans-serif;
+    font-size: 20px;
+    font-family: 500;
+    letter-spacing: 1.0px;
+    line-height: 1.6;
+    font-style: normal;
+}
+.newsvideopara{
+    display: flex;
+    border: 1px solid #ebe9e9;
+    height: 190px;
+    width: 1080px;
+    margin-left: 450px;
+    margin-top: 60px;
+    background-color:#f16853 ;
+}
+.shownewsleft{
+    padding-left: 30px;
+    padding-top: 40px;
+    
+}
+.shownewsleft img{
+    border-radius: 50%;
+}
+.shownewsright{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.shownewsright span{
+    color: white;
+    font-family: "work Sans",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+.shownewsright p{
+    color: white;
+    font-family: "work Sans",sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+.replyleave{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.replyleave p{
+    color: #7A7A7A;
+    font-size: 18px;
+    font-family: "work Sans",sans-serif;
+    font-weight: 400;
+}

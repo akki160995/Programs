@@ -1,0 +1,26 @@
+.logo{
+    color:#15374b;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    filter: brightness( 0% ) contrast( 200% ) saturate( 200% ) blur( 0px ) hue-rotate( 134deg );
+}
+a:hover{
+    color:#f16853;
+}
+a,h3{
+    color:#15374b;
+    text-align: center;
+}
+.legals{
+    color:#7a7a7a;
+    margin: auto;
+}
+.bottom_menu{
+    position:relative;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.logo:hover{
+filter: brightness( 101% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}

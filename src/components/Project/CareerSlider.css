@@ -1,0 +1,119 @@
+.slideimg1 img{
+    margin-left: 0px;
+}
+.slideimg1 h2{
+    color: #15374B;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.slideimg1 p{
+    color: #7A7A7A;
+    font-family: "work Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+.slideimg2 h2{
+    color: #15374B;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.slideimg2 p{
+    color: #7A7A7A;
+    font-family: "work Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+.slideimg3 h2{
+    color: #15374B;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.slideimg3 p{
+    color: #7A7A7A;
+    font-family: "work Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+.slideimg4 h2{
+    color: #15374B;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.slideimg4 p{
+    color: #7A7A7A;
+    font-family: "work Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+.slideimg5 h2{
+    color: #15374B;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.slideimg5 p{
+    color: #7A7A7A;
+    font-family: "work Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+.Buttonslide1 {
+    margin-top: 50px;
+    display: flex;
+}
+.btnslide1 a{
+    background-color: #f16853;
+    color: white;
+    height: 80px;
+    width: 190px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Work-Sans", sans-serif;
+    font-style: normal;
+    border-radius: 6px; 
+}
+.btnslide1 a:hover{
+    color: #FFF;
+    background-color: #15374B;
+}
+.Linkslide1 a{
+    margin-left: 30px;
+    color: #7A7A7A;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Work-Sans", sans-serif;
+    font-style: normal;
+}
+.Linkslide1 a:hover{
+    color: #f16853;
+}

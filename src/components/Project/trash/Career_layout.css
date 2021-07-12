@@ -1,0 +1,219 @@
+.CareerLayout{
+    display: flex;
+    position: relative;
+    width: 100%;
+ }
+.leftCareerLayout{
+    position: relative;
+    color: #7A7A7A;
+    letter-spacing: 1.9px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Work-Sans", sans-serif;
+     padding-top: 90px;
+     padding-right: 05px;
+     padding-left: 25px; 
+     border-left: 1px solid #ddd9d9;
+     height: 130px;
+     margin-left: 150px;
+ }
+ .rightCareerLayout{
+     position: relative;
+     width: 502px;
+     height: 140px;
+     margin-left: 695px;
+     letter-spacing: 5.8px;
+     font-family: "Work Sans", sans-serif;
+     font-weight: 600;
+     font-size: 20px;
+     text-transform: uppercase;
+     font-style: normal;
+     align-content: center;
+     align-items: center;
+     color: #FFF;
+     background-color: #f16853;
+     padding-left: 130px;
+     padding-right: 70px;
+     padding-top: 80px;
+ }
+.CareerOverview {
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+    hyphens: manual;
+}
+.leftLayout {
+    width: 1000px;
+    padding-top: 0px;
+    padding-right: 21px;
+    padding-left: 150px;
+    align-items: center;
+    color: #15374B;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.title1 {
+    padding-top: 20px;
+    color: #15374B;
+    align-items: left;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    word-spacing: 1.5px;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.para4 {
+    padding-right: 40px;
+    text-transform: capitalize;
+    color: #7A7A7A;
+    font-size: 20.8px;
+    font-weight: 500;
+    word-spacing: 0.5px;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: justify;
+}
+.points {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: #7A7A7A;
+    font-family: "Work Sans", Sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;   
+}
+.points a {
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #7A7A7A;
+    background-color: #FFF;
+}
+.points a:hover {
+    color: #f16853;
+    background-color: #FFF;
+}
+.points hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+    color: #fffdfd;
+    width: 950px;
+}
+.rightLayout {
+    height: 2300px;
+    width: 720px;
+    margin-right: 148px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    transition: .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.Requirements {
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:  100px;
+    padding-bottom: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.9;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+}
+.Apply a{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 20.5px;
+    font-weight: 450;
+    word-spacing: 1.5px;
+    letter-spacing: 0.9px;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+.Apply a:hover{
+    color: #f16853;
+    background-color: #EEEEEE;
+}
+.Apply hr {
+    float: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ebe9e9;
+}
+.title2 {
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:  50px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.9;
+    font-size: 22px;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    color: #15374B;
+}
+.para5 {
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 100px;
+    text-transform: none;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    font-size: 20.5px;
+    font-weight: 500;
+    word-spacing: 1.0px;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+}
+.SpotlessSlider {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 0% ;
+    margin-left: 150px; 
+    margin-bottom: 80px;   
+    width: 1730px;
+    height: auto;
+    border: 1px solid #ebe9e9;
+    background-color: #FFF;
+}
+.slidername {
+    position: relative;
+    color: #7A7A7A;
+    letter-spacing: 1.3px;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+.careerslider{
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-bottom: 6vh;
+}
+

@@ -1,0 +1,19 @@
+.left{
+    position: relative;
+    left:100px;
+}
+.right{
+    border: none;
+    background-color: #F16853;
+    color:#fff;
+    float:right;
+    position: relative;
+    right: 100px;
+    text-decoration: none;
+}
+.notification{
+    background-color: #F16853;
+    padding: 10px;
+    color:#fff;
+    position: relative;
+}
