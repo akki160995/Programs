@@ -51,7 +51,7 @@ const App = () => {
                     
           <Route exact path="/admin" component={Admin}/>
           
-          <Route component={Error} />
+          <Route component={Home} />
       </Switch>
     </BrowserRouter>
     </>
