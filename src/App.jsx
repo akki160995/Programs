@@ -2,7 +2,6 @@ import React from "react";
 import './App.css';
 import './components/Project/nav.css'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import logo from './components/Resources/logo-flamingo-color.png'
 import Home from "./components/Project/Home";
 import About from "./components/Project/About";
 import Career from "./components/Project/Career";

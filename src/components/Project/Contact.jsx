@@ -5,24 +5,10 @@ import Navbar from './Navbar';
 
 import headertabs from './Images/slide1.jpg';
 import { NavLink } from "react-router-dom"; 
-import logo from './Images/logo.png';
 import Stetoskop from './Images/iconstetoskop.png';
 import Ambulance from './Images/iconambulance.png';
 import {FaAmbulance} from 'react-icons/fa';
 import {RiVirusFill} from 'react-icons/ri';
-import {RiVirusLine} from 'react-icons/ri';
-import {GiSpeaker} from 'react-icons/gi';
-import {FaPhoneAlt} from 'react-icons/fa';
-import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
-import {FaLanguage} from 'react-icons/fa';
-import {FaRegNewspaper} from 'react-icons/fa';
-import {FaStethoscope} from 'react-icons/fa';
-import {FaFax} from 'react-icons/fa';
-import {FaFacebookF} from 'react-icons/fa';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import CallIcon from '@material-ui/icons/Call';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Footer from '../Layout/Footer/Footer';
 

@@ -9,7 +9,6 @@ import Stetoskop from './Images/iconstetoskop.png';
 import Ambulance from './Images/iconambulance.png';
 import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
 import {FaLanguage} from 'react-icons/fa';
-import {FaRegNewspaper} from 'react-icons/fa';
 import {FaStethoscope} from 'react-icons/fa';
 import {FaFax} from 'react-icons/fa';
 import {FaFacebookF} from 'react-icons/fa';
