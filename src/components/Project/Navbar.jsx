@@ -4,11 +4,10 @@ import "./nav.css";
 import './css/style.css';
 import { NavLink } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import logo from './Images/logo.png';
 import ReportProblemOutlinedIcon from '@material-ui/icons/ReportProblemOutlined';
 import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
-import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 //import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 
 const Navbar = () => {

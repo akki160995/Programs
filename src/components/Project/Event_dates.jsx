@@ -10,7 +10,6 @@ import iconambulance from './Images/iconambulance.png';
 import logo from './Images/logo.png';
 import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
 import {FaLanguage} from 'react-icons/fa';
-import {FaRegNewspaper} from 'react-icons/fa';
 import {FaIdCard} from 'react-icons/fa';
 import {FaUserClock} from 'react-icons/fa';
 import {FaAllergies} from 'react-icons/fa';
@@ -22,7 +21,6 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import CallIcon from '@material-ui/icons/Call';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 
 const Events_dates = () => {
