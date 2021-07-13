@@ -2,6 +2,7 @@
     font-family: "Work Sans", sans-serif;
     max-width: 100%;
 }
+
 .row {  
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +13,12 @@
       flex-direction: column;
     }
   }
+  .opacity{
+    width: 300px; 
+    height: 337px; 
+    object-fit: contain;
+  }
+
 
 
 .header_flex{

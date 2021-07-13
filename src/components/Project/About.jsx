@@ -8,7 +8,6 @@ import Slider from "./Slider";
 import logo from './Images/logo.png';
 import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
 import {FaLanguage} from 'react-icons/fa';
-import {FaRegNewspaper} from 'react-icons/fa';
 import {FaStethoscope} from 'react-icons/fa';
 import {FaFax} from 'react-icons/fa';
 import {FaFacebookF} from 'react-icons/fa';
@@ -22,10 +21,12 @@ import Stetoskop from './Images/iconstetoskop.png';
 import Ambulance from './Images/iconambulance.png';
 import{FaRegFilePdf} from 'react-icons/fa';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
+import ReactNavbar from '../Layout/ReactNavbar';
 
 const About = () => {
   return (
     <>
+        <ReactNavbar/>
         <Navbar/>
 
         <div className="header_flex">
@@ -173,6 +174,7 @@ const About = () => {
         </div>
         </div>
     </div>
+    <Slider/>
     <NewsFlex/>
 
 

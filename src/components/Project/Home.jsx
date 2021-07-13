@@ -1,30 +1,30 @@
 import React from 'react';
-import Navbar from './Navbar';
-import headertabs from './Images/headertabs1.jpg';
+
+import './css/style.css';
 import Ambulance from './Images/iconambulance.png';
 import Stetoskop from './Images/iconstetoskop.png'
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
+import Navbar from 'react-bootstrap/Navbar';
+import { NavDropdown } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import ControlledCarousel from './ControlledCarousel';
+import { NavLink } from "react-router-dom"; 
+import logo from './Images/logo.png';
+import Slide1 from './Images/slide-1.jpg';
+import Slide2 from './Images/slide-4.jpg';
+import ReactNavbar from '../Layout/ReactNavbar';
 
 const Home = () => {
     return (
         <div>
-            <Navbar/>
-            <div className="header_flex">
-                <div className="container-fluid" >
-                    <div className="row align-items-center ">
-                        <div className="col-lg-1"></div>
-                        <div className=" col-lg-6 col-md-6 col-sm-6 ">
-                            <span className="main_heading "><b>CONTACT US<br/><small>Home Contact Us</small></b></span>
-                        </div> 
-                        <div className=" col-lg-4 col-md-6 col-sm-6 ">
-                            <img src={headertabs} className="poster_size" alt="xyz" />
-                        </div>
-                        <div className="col-lg-1"></div>
-                    </div>
-                </div>    
+            <ReactNavbar/>
+            <div className="">
+                <ControlledCarousel/>
             </div>
+            
 
             <div className="container-fluid">
+            <Navbar/>
                 <div className="row">
                     <div className="col-lg-1"></div>
                     <div className="col-lg-6  col-md-6">
@@ -106,15 +106,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="container">
-                    
-                    </div>
-                    
-
                 </div>
-                </div>
-
-        <NewsFlex/>
+            </div>
+            <NewsFlex/>
         </div>
     )
 }
