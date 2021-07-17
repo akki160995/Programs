@@ -7,7 +7,7 @@ export class NewsFlex extends Component {
     render() {
         return (
             <div>
-                <div className="container" >
+                <div className="container mt-3 mb-3" >
                     <div className="box">
                         <div className="row">
                         <div className=" col-md-4 Head_left">LETEST NEWS</div> 

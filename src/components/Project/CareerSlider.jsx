@@ -37,7 +37,7 @@ export default function SimpleSlider() {
     <>
     <Carousel {...settings} >
     <div className="slideimg1">
-              <img  src={headertabs2} height="350px" width="535px"/><br/>
+              <img  src={headertabs2} alt="Slide1" height="350px" width="535px"/><br/>
               <h2>Surgery Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <div className="Buttonslide1">
@@ -50,7 +50,7 @@ export default function SimpleSlider() {
               </div>
         </div>
         <div className="slideimg2">
-              <img  src={headertabs3} height="350px" width="535px"/><br/>
+              <img  src={headertabs3} alt="Slide2" height="350px" width="535px"/><br/>
               <h2>Doctor Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <div className="Buttonslide1">
@@ -63,7 +63,7 @@ export default function SimpleSlider() {
               </div>
         </div>
         <div className="slideimg3">
-              <img  src={headertabs4} height="350px" width="535px"/><br/>
+              <img  src={headertabs4} alt="Slide3" height="350px" width="535px"/><br/>
               <h2>Health Care</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <div className="Buttonslide1">
@@ -76,7 +76,7 @@ export default function SimpleSlider() {
               </div>
         </div>
         <div className="slideimg4">
-              <img  src={headertabs1} height="350px" width="535px"/><br/>
+              <img  src={headertabs1} alt="Slide4" height="350px" width="535px"/><br/>
               <h2>Nurses Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <div className="Buttonslide1">
@@ -89,7 +89,7 @@ export default function SimpleSlider() {
               </div>
         </div>
         <div className="slideimg5">
-              <img  src={headertabs11} height="350px" width="535px"/><br/>
+              <img  src={headertabs11} alt="Slide5" height="350px" width="535px"/><br/>
               <h2>Children Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <div className="Buttonslide1">

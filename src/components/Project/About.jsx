@@ -43,6 +43,9 @@ const About = () => {
                     </div>
                 </div>    
             </div>
+            <div>
+                
+            </div>
 
             <div className="container-fluid">
                 <div className="row">
@@ -65,7 +68,6 @@ const About = () => {
                                 src="https://www.youtube.com/embed/XHOmBV4js_E" 
                                 title="YouTube video player" 
                                 frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen/>
                         </div>
                         <div className="profile">
@@ -93,6 +95,11 @@ const About = () => {
                             </div>
                             <div className="graph">
                                 <Achart/>
+                            </div>
+
+                            <div>
+
+                            
                             </div>
                 </div>
 

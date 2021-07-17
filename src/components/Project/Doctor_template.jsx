@@ -84,7 +84,8 @@ const Doctor_template = () => {
                                 <h4> A </h4><hr  color="#f5ecec"/><br/>
                                 <div className="doctoroinfoimage1">
                                     <div className="drleftimg1">
-                                        <NavLink to="/doctor-template-list"><img src={doctor1} height="200px" width="200px" alt="Doctor 1 Image" /></NavLink>
+                                        <NavLink to="/doctor-template-list">
+                                            <img src={doctor1} height="200px" width="200px" alt="Doctor1" /></NavLink>
                                     </div>
                                     <div className="drrightimg1">
                                         <NavLink to="/doctor-template-list">Aaron Neville, dr</NavLink><br/>
@@ -93,7 +94,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                        <NavLink to="/doctor-template-list"><img src={doctor2} height="200px" width="200px" alt="Doctor 2 Image"/></NavLink>
+                                        <NavLink to="/doctor-template-list">
+                                            <img src={doctor2} height="200px" width="200px" alt="Doctor2"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Adriana Caselotti, dr</NavLink><br/>
@@ -102,7 +104,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor3} height="200px" width="200px" alt="Doctor 3 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor3} height="200px" width="200px" alt="Doctor3"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Aaron Carter, dr</NavLink><br/>
@@ -111,7 +114,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor4} height="200px" width="200px" alt="Doctor 4 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor4} height="200px" width="200px" alt="Doctor4"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Ace Miller, dr</NavLink><br/>
@@ -120,7 +124,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor5} height="200px" width="200px" alt="Doctor 5 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor5} height="200px" width="200px" alt="Doctor5"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Abigail Cornell, dr</NavLink><br/>
@@ -129,7 +134,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor6} height="200px" width="200px" alt="Doctor 6 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor6} height="200px" width="200px" alt="Doctor6"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Aadila Dosani, dr</NavLink><br/>
@@ -138,7 +144,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor7} height="200px" width="200px" alt="Doctor 7 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor7} height="200px" width="200px" alt="Doctor7"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Adam Busch, dr</NavLink><br/>
@@ -147,7 +154,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor8} height="200px" width="200px" alt="Doctor 8 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor8} height="200px" width="200px" alt="Doctor8"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Abraham Lincoln, dr</NavLink><br/>
@@ -156,7 +164,8 @@ const Doctor_template = () => {
                             </div>
                             <div className="doctoroinfoimage1">
                                 <div className="drleftimg1">
-                                    <NavLink to="/doctor-template-list"><img src={doctor9} height="200px" width="200px" alt="Doctor  9 Image"/></NavLink>
+                                    <NavLink to="/doctor-template-list">
+                                        <img src={doctor9} height="200px" width="200px" alt="Doctor9"/></NavLink>
                                 </div>
                                 <div className="drrightimg1">
                                     <NavLink to="/doctor-template-list">Adam Lambert, dr</NavLink><br/>

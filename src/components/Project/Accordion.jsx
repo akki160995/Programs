@@ -1,5 +1,5 @@
 import React from 'react';
-import { /*responsiveFontSizes,*/ withStyles } from '@material-ui/core/styles';
+import {  withStyles } from '@material-ui/core/styles';
 import MuiAccordion from '@material-ui/core/Accordion';
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
@@ -57,6 +57,8 @@ export default function CustomizedAccordions() {
   };
 
   return (
+          <>
+
     <div className="Data">
       <Accordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -119,5 +121,6 @@ export default function CustomizedAccordions() {
         </AccordionDetails>
       </Accordion>
     </div>
+    </>
   );
 }

@@ -1,9 +1,9 @@
 
-  img{
+  .navbar-brand img{
     position: relative;
-    float: left;
-    left:100px;
-    width:200px;
+    left: initial;
+    width: 200px;
+    height: auto;
   } 
  .navbar-brand {
   color:#15374b;

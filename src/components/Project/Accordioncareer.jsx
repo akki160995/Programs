@@ -1,11 +1,10 @@
 import React from 'react';
-import { responsiveFontSizes, withStyles } from '@material-ui/core/styles';
+import {  withStyles } from '@material-ui/core/styles';
 import MuiAccordion from '@material-ui/core/Accordion';
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { FaFonticonsFi } from 'react-icons/fa';
 
 const Accordioncareer = withStyles({
   root: {
