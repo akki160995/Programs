@@ -13,7 +13,7 @@
   filter: brightness( 101% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
   }
 
-  .nav-link{
+  .nav-links{
     align-items: center;
     font-size: 12px;
     font-style: normal;
@@ -26,7 +26,8 @@
     float: right;
   }
 
-  .active { color:#f16853;
+  .active 
+  { color:#f16853;
   }
 
   

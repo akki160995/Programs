@@ -183,13 +183,8 @@ const About = () => {
     </div>
     <Slider/>
     <NewsFlex/>
-
-
-
-        
-        
-        
-            
+    
+                
         <div className="Footer"> <br/>
             <div className="Container1">
                 <div className="Cleft">

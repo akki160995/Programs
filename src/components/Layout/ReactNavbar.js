@@ -5,36 +5,46 @@ import { NavDropdown } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavLink } from "react-router-dom"; 
 import logo from '../Project/Images/logo.png';
+import ReportProblemOutlinedIcon from '@material-ui/icons/ReportProblemOutlined';
+import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
+import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 
 function ReactNavbar() {
     return (
+        <div>
+            <div className="notification">
+                <span className="left "> <ReportProblemOutlinedIcon/> COVID-19 CORONAVIRUS UPDATE</span>
+                <a className="right " href="./covid_report">Information For Patients And Public Goes Here <ArrowForwardOutlinedIcon /></a>
+          </div>
+        
         <div className="container">          
-            <Navbar expand="lg" className="row border-left border-right">
+            <Navbar expand="lg" className="w-100 row border-left border-right">
                 <Navbar.Brand className="col-lg-6 col-md-6">
                     <a href="./"className="navbar-brand">
                         <img src={logo} alt="Logo" className="Logo" />
                     </a>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav col-lg-6 col-md-6" />
+                <Navbar.Toggle aria-controls=" col-lg-6 col-md-6" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mx-auto">
-                            <Nav.Link >
-                                <NavLink className="nav-link "exact to="/">Home</NavLink>      
-                            </Nav.Link>
-                            <Nav.Link >
+                        <Nav className="">
+                            <Nav>
+                                <NavLink className="nav-link  "exact to="/">Home</NavLink>      
+                            </Nav>
+                            <Nav >
                                 <NavLink className="nav-link  "exact to="/about">About</NavLink>      
-                            </Nav.Link>
-                            <Nav.Link >
+                            </Nav>
+                            <Nav >
                                 <NavLink className="nav-link"exact to="/service">Services</NavLink>
-                            </Nav.Link>
-                            <Nav.Link >
+                            </Nav>
+                            <Nav >
                                 <NavLink className="nav-link"exact to="/news">News</NavLink>
-                            </Nav.Link>
-                            <Nav.Link >
+                            </Nav>
+                            <Nav >
                                 <NavLink className="nav-link"exact to="/career">Career</NavLink>
-                            </Nav.Link>
+                            </Nav>
 
-                            <NavDropdown title="Layout" className="mt-2 mb-0" id="collasible-nav-dropdown">
+                            
+                            <NavDropdown title="Layout" className=" " id="collasible-nav-dropdown">
                                 <NavDropdown.Item >
                                     <NavLink className="dropdown-item pl-0 "exact to="/career-layout">Career Layout</NavLink>
                                 </NavDropdown.Item>
@@ -60,12 +70,16 @@ function ReactNavbar() {
                                     <NavLink className=" dropdown-item pl-0 "exact to="/event-layout">Event Layout</NavLink>              
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link >
+                        <Nav >
                             <NavLink className="nav-link"exact to="/contact">Contact</NavLink>
-                        </Nav.Link>
+                        </Nav>
+                        <Nav>
+                            <NavLink className="nav-link" exact to="/"><SearchOutlinedIcon/></NavLink>
+                        </Nav>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+        </div>
         </div>
     )
 }
