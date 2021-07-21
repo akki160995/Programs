@@ -14,7 +14,7 @@ function ReactNavbar() {
         <div>
             <div className="notification">
                 <span className="left "> <ReportProblemOutlinedIcon/> COVID-19 CORONAVIRUS UPDATE</span>
-                <a className="right " href="./covid_report">Information For Patients And Public Goes Here <ArrowForwardOutlinedIcon /></a>
+                <a className="right " href="./covid-19-report">Information For Patients And Public Goes Here <ArrowForwardOutlinedIcon /></a>
           </div>
         
         <div className="container">          

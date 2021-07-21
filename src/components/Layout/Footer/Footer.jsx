@@ -17,18 +17,18 @@ class Footer extends Component {
             <div className="container-fluid">
                 <hr/>
                 <div className="row">
-                    <div className=" col-xl-4  col-md-6">
-                        <div className="logo">
-                            <a href="./"><img src={logo} alt="Logo"/></a><hr/>
+                    <div className=" col-xl-4  col-md-6 border-right ">
+                        <div className="logo mx-auto">
+                            <a href="./"><img src={logo} alt="Logo"/></a>
                         </div>
-                        <div className="col d-flex flex-nowrap icons">
-                            <h3 className="p-2"><a href="./"><FaAmericanSignLanguageInterpreting/> &nbsp;Interpreter</a></h3><hr/>
+                        <div className="col d-flex flex-nowrap icons border-top ">
+                            <h3 className=" border-right"><a href="./"><FaAmericanSignLanguageInterpreting/> &nbsp;Interpreter</a></h3><hr/>
                             <h3 className="p-2"><a href="./"><FaLanguage /> &nbsp;Language</a></h3><hr/>
                         </div>
                     </div>
 
 
-                    <div className="col-xl-4 col-md-6">
+                    <div className="col-xl-4 col-md-6 border-right">
                     <h3>Quicklinks </h3>
                         <div className="row">
                             <div className="col">
@@ -81,7 +81,7 @@ class Footer extends Component {
                     </div>
                 </div>
 
-                <div class=" row">
+                <div class=" row ">
                       <div className="col-sm-4">
                           <div className="row bottom_menu p-2 mr-2">
                           <div className="p-2"><a href="./" >Copyright</a></div>

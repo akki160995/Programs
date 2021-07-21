@@ -11,8 +11,12 @@ import doctor3 from './Images/doctor-3.jpg';
 import Doctor1 from './Images/doctor1.jpg';
 import Doctor2 from './Images/doctor2.jpg';
 import Doctorbg from './Images/doctor-bg.jpg';
+import Doctorbgtab from "./Images/doctor-bg-tabs.jpg"
+import Footer from "../Layout/Footer/Footer";
+
 
 import ReactNavbar from '../Layout/ReactNavbar';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -26,7 +30,7 @@ const Home = () => {
             </div>
 
             <div class="container ">
-                <div class="row border-left border-right border-bottom border-top">
+                <div class="row ml-0 border-left border-right border-bottom border-top">
                     <div class="col-lg-3 ">
       
                         <div className="mt-3">Coming to WeCare Hospital</div>
@@ -231,6 +235,100 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="container mt-3" >
+                <div className="row ml-0 border-left border-right border-top border-bottom">
+                    <div className="col-md-3">
+                        Hospital<br/>Service 24/7
+                    </div>
+                    <div className="col-md-9"> 
+                        <div className="col border-bottom">
+                            <br/>
+                        </div>
+                        <div className=" col">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mt-3 Clinic-info">
+                <div className="row ml-0 border-left border-right border-top border-bottom">
+                    <div className="col-md-3 mt-3 col">                     
+                        <li>
+                            Routine Medical Care
+                        </li>
+                        <hr/>
+                        <li>
+                            Full Blood Picture
+                        </li>
+                        <hr/>
+                        <li>
+                            MRI Diagnostics
+                        </li>
+                        <hr/>
+                        <li>
+                            X-Ray Diagnostircs
+                        </li>
+                        <hr/>
+                        <li>
+                            Ophthalmologists
+                        </li>
+                        <hr/>
+                        <li>
+                            Obstetrician/Gynecologists
+                        </li>
+                        <hr/>
+                        <li>
+                            Geriatric Care
+                        </li>
+                        <hr/>
+                    </div>
+
+                    <div className="col-md-9">
+                        <div className="">Service Overview</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at urna. Erat imperdiet sed euismod nisi. Turpis egestas maecenas pharetra convallis posuere morbi. Amet facilisis magna etiam tempor orci eu lobortis. Neque sodales ut etiam sit. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Odio aenean sed adipiscing diam. Eu mi bibendum neque egestas congue quisque egestas diam in. Augue eget arcu dictum varius duis. Id aliquet risus feugiat in ante.</p>
+                        
+                    <div className="row">
+                        <div className="col-md-6 ">
+                            <img src={Doctorbgtab}  alt="Doctorimg"/>
+                        </div>
+                        <div className="col-md-6 mb-3 border-left border-right border-top border-bottom">
+                            <div>Open Hours</div>
+                            <div>
+                                <div className="">
+                                    Mon - Thurs
+                                    <div className="float-right">
+                                        08.00 Am - 20.00 Pm
+                                    </div>
+                                </div>
+                                
+                                <div className="">
+                                    Friday
+                                    <div className="float-right">
+                                        09.00 Am - 20.00 Pm
+                                    </div>
+                                </div>
+                                
+                                <div className="">
+                                    Sat - Sun
+                                    <div className="float-right">
+                                        09.00 Am - 20.00 Pm
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div>
+                                <button className="w-100 mt-2 mb-2" >Discover More</button>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <Testimonial/>
+            <Footer/>
 
         </div>
     )

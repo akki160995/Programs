@@ -68,8 +68,53 @@
       color:#fff;
   }
 
-
-
+  .Clinic-info img{
+      width: auto;
+      height: 100%;
+      position: relative;
+      left: 0px;
+      object-fit: cover;
+  }
+  
+  .testimonial{
+    background-color: #f16853;
+    margin-right: 0px;
+    
+  }
+  .fix-Testimonial{
+        position: absolute;
+        z-index: 2;
+      
+        background-color: #15374b;
+        color:#fff;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+  }
+  .Box_left{
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 17px;
+    letter-spacing: 2.8px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .testimonial img{
+    object-fit: cover;
+      height: 420px;
+      width: auto;
+      position: relative;
+      top: 0px;
+      z-index: 1;
+  }
+  .Testimonial-para{
+        color: #fff;
+        margin-top: 20%;
+    }
+    .Testimonial-name{
+        color: #fff;
+        margin-top: 20px;
+    }
 
 .header_flex{
     position:relative;
