@@ -1,34 +1,38 @@
 import React from 'react';
-import './Navbar.css';
 import "./nav.css";
+//import './Navbar.css'
 import './css/style.css';
 import { NavLink } from "react-router-dom"; 
-import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'bootstrap/dist/js/bootstrap.bundle';
 import logo from './Images/logo.png';
 import ReportProblemOutlinedIcon from '@material-ui/icons/ReportProblemOutlined';
 import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
+import SearchOutlined from '@material-ui/icons/SearchOutlined';
 //import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 
 const Navbar = () => {
     return (
         <>  
-
-
           <div className="notification">
                 <span className="left "> <ReportProblemOutlinedIcon/> COVID-19 CORONAVIRUS UPDATE</span>
                 <a className="right " href="./covid_report">Information For Patients And Public Goes Here <ArrowForwardOutlinedIcon /></a>
           </div>
 
+          <div className="container border-left border-right">
+          <nav className="navbar navbar-expand-lg">
+            <div className="row w-100">
+              <div className="col">
+                <a href="./"className="navbar-brand">
+                  <img src={logo} alt="Logo" className="Logo" />
+                </a>
+              </div>
 
-            <div className="container">
-              <nav className="navbar navbar-expand-lg justify-content-between">
-                <a href="./"className="navbar-brand"><img src={logo} alt="Logo"/></a>
-                <div className="">
-                  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                  </button>
-                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
+              <div className="col">
+
+                <button class="navbar-toggler navbar-light float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon  "></span>
+                </button>
+
+                <div className="collapse navbar-collapse " id="navbarSupportedContent">
                       <ul className="navbar-nav ">
                         <li className="nav-item ">
                           <NavLink activeClassName="active" className="nav-link  "exact to="/">Home</NavLink>
@@ -50,7 +54,7 @@ const Navbar = () => {
                           <a href="##" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Layout
                           </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="dropdown-menu dropdown-fix" aria-labelledby="navbarDropdown">
                             <NavLink className="dropdown-item"exact to="/career-layout">Career Layout</NavLink>
                             <NavLink className=" dropdown-item"exact to="/covid-19-report">Covid Report</NavLink>
                             <NavLink className=" dropdown-item"exact to="/doctor_template">Doctor Template List</NavLink>
@@ -67,15 +71,12 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
-                </nav>
-                
+                  
+                </div>
               </div>
-
-              
+            </nav>
+          </div>
         </>
-
-
     );
 };
 

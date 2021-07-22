@@ -12,7 +12,13 @@
 .navbar-brand:hover{
   filter: brightness( 101% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
   }
+.Logo{
+  width: 15rem;
+  position: relative;
+  left: 0px;
+  filter: brightness( 100% ) contrast( 0% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
 
+}
   .nav-links{
     align-items: center;
     font-size: 12px;
@@ -26,7 +32,7 @@
     float: right;
   }
 
-  .active 
+  .navbar-light .navbar-nav .nav-link.active 
   { color:#f16853;
   }
 

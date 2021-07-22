@@ -6,6 +6,7 @@ import Slide2 from './Images/slide-4.jpg';
 
 function ControlledCarousel() {
         return (
+          < div className="back">
       <Carousel fade interval={2000} controls={false} indicators={false}>
         <Carousel.Item>
           <img
@@ -24,6 +25,7 @@ function ControlledCarousel() {
         </Carousel.Item>
         
       </Carousel>
+      </div>
     );
   }
   

@@ -13,20 +13,19 @@ import Doctor2 from './Images/doctor2.jpg';
 import Doctorbg from './Images/doctor-bg.jpg';
 import Doctorbgtab from "./Images/doctor-bg-tabs.jpg"
 import Footer from "../Layout/Footer/Footer";
-
-
-import ReactNavbar from '../Layout/ReactNavbar';
 import Testimonial from './Testimonial';
+import Navbar from './Navbar';
+import ReactNavbar from '../Layout/ReactNavbar';
 
 const Home = () => {
     return (
         <div >
             <div>
-                <ReactNavbar/>
+                <ReactNavbar className="over"/>
             </div>
             
             <div>
-                <ControlledCarousel/>
+                <ControlledCarousel className="back"/>
             </div>
 
             <div class="container ">
@@ -151,7 +150,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-
+                    
 
                     <div class="col-lg-4 mr-0 ml-0">
                         <div className="inline_heading">

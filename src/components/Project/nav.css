@@ -1,32 +1,37 @@
 
   img{
     position: relative;
-    float: left;
-    left:100px;
-    width:200px;
+    align-self: start;
+    width:20rem;
+    height: auto;
   } 
  .navbar-brand {
-  color:#15374b;
+  width: 15rem;
   filter: brightness( 0% ) contrast( 200% ) saturate( 200% ) blur( 0px ) hue-rotate( 134deg );
 }
 .navbar-brand:hover{
-  filter: brightness( 101% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+  filter: brightness( 101% ) contrast( 200% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
   }
 
-  .nav-link{
+  .nav-link {
     align-items: center;
-    font-size: 12px;
+    font-size: 17px;
     font-style: normal;
-    padding-bottom: 13px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 13px;
     font-weight: 500;
     color: rgb(122, 122, 122);
-    float: right;
+    text-align:end;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: relative;
+    max-width: 100%;
   }
 
   .active { color:#f16853;
   }
 
-  
+ .nav-link:hover{
+   color:#f16853;
+ }
+ .dropdown-fix{
+   max-width: 15rem;
+ }

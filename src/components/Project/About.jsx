@@ -1,6 +1,7 @@
 import React from 'react';
 //import "./About.css";
 import Navbar from './Navbar';
+
 import Achart from "./Achart";
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Slider from "./Slider";
@@ -21,12 +22,11 @@ import Stetoskop from './Images/iconstetoskop.png';
 import Ambulance from './Images/iconambulance.png';
 import{FaRegFilePdf} from 'react-icons/fa';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
-import ReactNavbar from '../Layout/ReactNavbar';
 
 const About = () => {
   return (
     <>
-        <ReactNavbar/>
+        
         <Navbar/>
 
         <div className="header_flex">

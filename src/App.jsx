@@ -19,7 +19,6 @@ import Department_profile from "./components/Project/Department_profile";
 import Event_dates from "./components/Project/Event_dates";
 import Event_layout from "./components/Project/Event_layout";
 import Contact from "./components/Project/Contact";
-//import Contact from './components/Pages/Contact';
 import Error from "./components/Project/Error";
 
 import Admin from './components/Admin/Admin';

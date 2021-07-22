@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavLink } from "react-router-dom"; 
-import logo from '../Project/Images/logo.png';
+import Logo from '../Project/Images/logo.png';
 import ReportProblemOutlinedIcon from '@material-ui/icons/ReportProblemOutlined';
 import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
@@ -16,14 +16,14 @@ function ReactNavbar() {
                 <span className="left "> <ReportProblemOutlinedIcon/> COVID-19 CORONAVIRUS UPDATE</span>
                 <a className="right " href="./covid-19-report">Information For Patients And Public Goes Here <ArrowForwardOutlinedIcon /></a>
           </div>
-        
-        <div className="container">          
-            <Navbar expand="lg" className="w-100 row border-left border-right">
-                <Navbar.Brand className="col-lg-6 col-md-6">
-                    <a href="./"className="navbar-brand">
-                        <img src={logo} alt="Logo" className="Logo" />
+          <nav class="over w-100">
+          <div className="container">          
+            <Navbar expand="" className="w-100 row ">
+                <Navbar className="col-lg-6 col-md-6">
+                    <a href="./"className="">
+                        <img src={Logo} alt="Logo" className="Logo" />
                     </a>
-                </Navbar.Brand>
+                </Navbar>
                 <Navbar.Toggle aria-controls=" col-lg-6 col-md-6" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="">
@@ -80,7 +80,10 @@ function ReactNavbar() {
                 </Navbar.Collapse>
             </Navbar>
         </div>
-        </div>
+              
+          </nav>
+        
+                </div>
     )
 }
 

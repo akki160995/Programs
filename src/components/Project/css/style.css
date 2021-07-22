@@ -8,11 +8,18 @@
     flex-wrap: wrap;
   }
 
-  @media screen and (max-width: 700px) {
-    .row, .navbar {   
-      flex-direction: column;
-    }
+  @media screen and (min-width: 700px) {
+  .over{
+      z-index: 2;
+      position: absolute;
+      
   }
+  .back{
+      z-index: 1;
+      position: relative;
+      top: 0px;
+  }
+}
   .opacity{
       opacity: 0.8;
     position: relative;
@@ -215,19 +222,21 @@ text-align: left
     margin-left: 7rem;
     margin-right: 7rem;
 }
+
+/*StetoScope Flex*/
 .stetoscope{
     position: relative;
     background-color:#15374b;
     width: 80%;
-    height: 150px;
+    height: 140px;
     margin: 10%;
-    padding-right: 50px;
 }
 .stetoscope img{
     width: 100px;
-    margin-top: 20px;
-    margin-left: -70px;   
+    margin: 20px;
+       
 }
+
 .ambulance{
     position: relative;
     background-color:#e12255;
@@ -238,23 +247,23 @@ text-align: left
 }
 .ambulance img{
     width: 100px;
-    margin-top: 20px;
-    margin-left: -70px;   
+    margin: 20px;  
 }
+
 .icon_text{
-    box-sizing: border-box;
     color: rgb(255, 255, 255);
     font-family: "Work Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     hyphens: manual;
     letter-spacing: -0.6px;
     line-height: 26px;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 40px;
-text-align: left;
+    position:absolute;
+    top:30px;
+    right: 0px;
+    margin: 10px;
+    text-align: justify;
 }
 .left-Heading{
     font-family: "Work Sans", sans-serif;
