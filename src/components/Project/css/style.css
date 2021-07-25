@@ -17,17 +17,46 @@
   .back{
       z-index: 1;
       position: relative;
-      top: 0px;
+      top: 0px; 
   }
 }
   .opacity{
-      opacity: 0.8;
+      opacity: 1;
     position: relative;
     width: 100%;
-    margin-top: -10%;
-    margin-bottom: -5%;
+    margin-top: -15%;
+    margin-bottom: -15%;
     left: 0px;
   }
+    .indicator{
+        position: absolute;
+        right: 15%;
+        z-index: 2;
+        align-self:center;
+        top:50%;
+        color: #fff;
+    }
+    .indicator a:hover{
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .indicator p{
+        color: #fff;
+        word-wrap: break-word;
+        max-width: 30ch; 
+        font-size: 14px;
+    }
+    .indicatorheading{
+        color: #fff;
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .indicatorheading hr{
+        background-color: #f16853;
+        
+    }
+        
   .doctor-slider{
     position: relative;
     left: 0px;

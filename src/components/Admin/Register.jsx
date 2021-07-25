@@ -1,6 +1,6 @@
 import React, {useContext,useState} from 'react'
 import {MyContext} from '../../contexts/MyContext'
-import Logo from '../Resources/logo-flamingo-color.png';
+import Logo from '../Project/Images/logo.png';
 
 function Register(){
     const {toggleNav,registerUser} = useContext(MyContext);

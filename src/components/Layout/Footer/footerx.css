@@ -1,7 +1,11 @@
 .logo{
-    color:#15374b;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    left: 25%;
+    right: 25%;
     filter: brightness( 0% ) contrast( 200% ) saturate( 200% ) blur( 0px ) hue-rotate( 134deg );
 }
 a:hover{
@@ -23,4 +27,57 @@ a,h3{
 
 .logo:hover{
 filter: brightness( 101% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+.Footerheading{
+    box-sizing: border-box;
+    color: rgb(21, 55, 75);
+    display: block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    hyphens: manual;
+    letter-spacing: normal;
+    line-height: 21.6px;
+    text-align: left;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.icons{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%; 
+}
+.iconstext:hover{
+    color:#f16853;
+}
+.iconstext{
+    font-size: 1.5rem;
+    color: #15374b;
+}
+.symbol{
+    width: 2rem;
+    color: #15374b;
+}
+.FooterList a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+    box-sizing: border-box;
+    color: rgb(20, 20, 20);
+    display: block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    hyphens: manual;
+    letter-spacing: normal;
+    line-height: 21px;
+    list-style-type: none;
+    text-transform: none;
+}
+.FooterList a:hover{
+    color:#f16853;
 }

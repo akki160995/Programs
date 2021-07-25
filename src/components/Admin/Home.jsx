@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import {MyContext} from '../../contexts/MyContext';
 import Navbar from './Admin_navbar';
-import Logo from '../Resources/logo-flamingo-color.png'
+import Logo from '../Project/Images/logo.png';
 
 // Importing the Login & Register Componet
 import Login from './Login';
@@ -18,26 +18,24 @@ function Home(){
         return(
             <>
             <div>
-            <nav class="navbar">
-                <a class="navbar-brand" href="/">
-                <img src={Logo} width="100%" height="auto" class="d-inline-block align-top" alt=""/>
-                </a>
+                <nav class="navbar bg-info">
+                    <a class="navbar-brand" href="/">
+                        <img src={Logo} width="100%" height="auto" class="d-inline-block align-top float-center" alt=""/>
+                    </a>
+                    <h1 className="">
+                        <span role="img" aria-label="User Image">👦</span>
+                        {theUser.name}
+                    </h1>
+                    <div className="">
+                        <span className="mr-3">
+                            {theUser.email}
+                        </span>
+                        <button onClick={logoutUser} className=" btn btn-danger">Logout</button>
+                    </div>
+
             </nav>
-            
-            
-            <div className="navbar ">
-                <div className="_email ">
-                    <span>
-                        {theUser.email}
-                    </span>
-                </div>
-                <h1><span role="img" aria-label="User Image">👦</span>{theUser.name}</h1>
-                
-                <button onClick={logoutUser} className=" btn ">Logout</button>
-                  
+            <Navbar/>
             </div>
-                <Navbar/>
-                </div>
             </>
         )
     }

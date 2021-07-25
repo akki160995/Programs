@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 import logo from './Images/logo.png';
 import ReportProblemOutlinedIcon from '@material-ui/icons/ReportProblemOutlined';
 import ArrowForwardOutlinedIcon from '@material-ui/icons/ArrowForwardOutlined';
-import SearchOutlined from '@material-ui/icons/SearchOutlined';
 //import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 
 const Navbar = () => {

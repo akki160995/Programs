@@ -2,8 +2,6 @@ import React,{ useState,useEffect }  from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-
-
 const AllData = () => {
   const [news,setNews]= useState([])
 
@@ -25,6 +23,9 @@ const AllData = () => {
       return (
     <div>
       <div className="container-fluid">
+            <div className="mt-5 mb-5 float-right mr-3">
+                <Link className="btn btn-primary mr-2" to={`/admin/news/AddData`}>ADD NEW RECORD</Link>
+            </div>
             <div className="py-4">
                 <hr/>
                 <table className="table shadow">

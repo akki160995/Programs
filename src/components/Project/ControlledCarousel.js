@@ -7,16 +7,32 @@ import Slide2 from './Images/slide-4.jpg';
 function ControlledCarousel() {
         return (
           < div className="back">
-      <Carousel fade interval={2000} controls={false} indicators={false}>
-        <Carousel.Item>
+            <div className="indicator row">
+            <a href="/" className=" col" >
+              <div className="indicatorheading">Emergency<hr/></div>
+              <div className="indicatortext">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+              </div>
+            </a>
+            <a href="/" className="col" >
+              <div className="indicatorheading">Corona Virus<hr/></div>
+              <div className="indicatortext">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+              </div>
+            </a>
+            </div>
+            
+      <Carousel fade interval={10000} controls={false}>
+        
+        <Carousel.Item className="mt-0">
+          
           <img
             className=" opacity"
             src={Slide1}
             alt="First slide"
           />
-          
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="mt-0">
           <img
             className=" opacity"
             src={Slide2}

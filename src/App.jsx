@@ -49,7 +49,14 @@ const App = () => {
           <Route path="/contact" component={Contact} />
                     
           <Route exact path="/admin" component={Admin}/>
-          
+          <Route exact path="/admin/Appointment" component={Admin}/>
+          <Route exact path="/admin/Dept_Appoint" component={Admin}/>
+          <Route exact path="/admin/Career" component={Admin}/>
+          <Route exact path="/admin/Contacts" component={Admin}/>
+          <Route exact path="/admin/EventInfo" component={Admin}/>
+          <Route exact path="/admin/EventRegistration" component={Admin}/>
+          <Route exact path="/admin/News" component={Admin}/>
+          <Route exact path="/admin/Services" component={Admin}/>
           <Route component={Error} />
       </Switch>
     </BrowserRouter>

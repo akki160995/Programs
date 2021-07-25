@@ -23,6 +23,7 @@ class ViewData extends Component {
         return (
             <div>
                 <br></br>
+                <button onclick="window.print()">Print this page</button>
                 <div className = "card col-md-6 offset-md-3 shadow">
                     <h3 className="text-center mt-4"> Details</h3>
                     <div className = "card-body">

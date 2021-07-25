@@ -18,6 +18,7 @@ import Stetoskop from './Images/iconstetoskop.png';
 import Ambulance from './Images/iconambulance.png';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
+import Footer from '../Layout/Footer/Footer';
 
 const Doctor_template = () => {
   return(
@@ -265,6 +266,7 @@ const Doctor_template = () => {
                     </div>
                 </div>
                 <NewsFlex/>
+                <Footer/>
         </div>
     </>
     );

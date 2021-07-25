@@ -5,11 +5,7 @@ import Navbar from './Navbar';
 import ProfileSlider from "./ProfileSlider";
 import headertabs from './Images/headertabs7.jpg';
 import { NavLink } from "react-router-dom"; 
-import logo from './Images/logo.png';
-import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
-import {FaLanguage} from 'react-icons/fa';
 import{FaRegFilePdf} from 'react-icons/fa';
-import {FaStethoscope} from 'react-icons/fa';
 import {FaFax} from 'react-icons/fa';
 import {FaFacebookF} from 'react-icons/fa';
 import {VscCircleFilled} from 'react-icons/vsc';
@@ -17,8 +13,8 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import CallIcon from '@material-ui/icons/Call';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
+import Footer from '../Layout/Footer/Footer';
 
 const Doctor_profile = () => {
   return(
@@ -152,78 +148,7 @@ const Doctor_profile = () => {
             </div>
 
             <NewsFlex/>
-
-            
-        <div className="Footer"> <br/>
-            <div className="Container1">
-                <div className="Cleft">
-                    <div className="top">
-                        <a href="/"><img src={logo} alt="Logo"/></a>
-                    </div>
-                    <div className="mid">
-                        <a href="/doctor-profile-layout"><h3><FaAmericanSignLanguageInterpreting size="50"/> &nbsp;Interpreter</h3></a>
-                    </div>
-                    <div className="center">
-                    <a href="/doctor-profile-layout"><h3><FaLanguage size="50" /> &nbsp;Language</h3></a>
-                    </div>
-                </div>
-                <div className="Cmid">
-                        <div className="head">
-                        <h3>Quicklinks</h3>
-                        </div>
-                        <div className="link">
-                            <div className="leftlink">
-                                <a href="/doctor-profile-layout">A-Z listing</a><hr/>
-                                <a href="/doctor-profile-layout">Parking</a><hr/>
-                                <a href="/doctor-profile-layout">Visiting Hours</a><hr/>
-                                <a href="/doctor-profile-layout">Finding Around</a>  
-                            </div>   
-                            <div className="rightlink">
-                                <a href="/doctor-profile-layout">Patient Support</a><hr/>
-                                <a href="/doctor-profile-layout">Covid-19 Support</a><hr/>
-                                <a href="/doctor-profile-layout">Condition Service</a><hr/>
-                                <a href="/doctor-profile-layout">Emegency</a>
-                            </div> 
-                        </div>
-                </div>
-                <div className="Cright">
-                        <div className="heading">
-                        <h3>Contact Us</h3>
-                        </div>
-                        <div className="contactdetail">
-                            <div className="numbers">
-                                <a href="/doctor-profile-layout"><CallIcon />&nbsp;&nbsp;+62 8888 999</a><br/><hr/>
-                                <a href="/doctor-profile-layout"><FaStethoscope />&nbsp;&nbsp;&nbsp;+62 8888 333</a><br/><hr/>
-                                <a href="/doctor-profile-layout"><FaFax />&nbsp;&nbsp;&nbsp;+62 8888 444</a>
-                            </div>
-                            <div className="place">
-                                <a href="/doctor-profile-layout"><LocationOnIcon />&nbsp;&nbsp;Riverside Building,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>London, SE-90</span></a>
-                                <br/><br/><br/>
-                                <div className="icons">
-                                    <a href="/doctor-profile-layout"><FaFacebookF/></a>
-                                    <a href="/doctor-profile-layout"><TwitterIcon/></a>
-                                    <a href="/doctor-profile-layout"><InstagramIcon/></a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div className="Container2">
-                    <div className="Side1">
-                        <a href="/doctor-profile-layout">Copyright</a>
-                        <a href="/doctor-profile-layout">Accessibility</a>
-                        <a href="/doctor-profile-layout">Disclaimer</a>
-                        <a href="/doctor-profile-layout">Privacy</a><br/><br/>
-                        <a href="/doctor-profile-layout">Sitemap</a>
-                        <div className="bottom">
-                            <p>© WeCare London Hospital 2021 (CC)<br/> London Department for Health and Ageing</p>
-                        </div>
-                    </div>
-                    <div className="Side2">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ultrices dui sapien eget mi proin sed libero enim sed. A erat nam at lectus urna duis convallis. Ac turpis egestas maecenas pharetra convallis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Facilisi etiam dignissim diam quis. </span>						
-                    </div>
-            </div>
-        </div>
+            <Footer/>       
   </>
   );
 };

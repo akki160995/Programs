@@ -14,7 +14,6 @@ import Doctorbg from './Images/doctor-bg.jpg';
 import Doctorbgtab from "./Images/doctor-bg-tabs.jpg"
 import Footer from "../Layout/Footer/Footer";
 import Testimonial from './Testimonial';
-import Navbar from './Navbar';
 import ReactNavbar from '../Layout/ReactNavbar';
 
 const Home = () => {

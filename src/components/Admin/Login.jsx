@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react';
-import Logo from '../Resources/logo-flamingo-color.png'
+import Logo from '../Project/Images/logo.png';
 import {MyContext} from '../../contexts/MyContext';
 
 function Login(){

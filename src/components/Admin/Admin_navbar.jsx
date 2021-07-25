@@ -28,6 +28,7 @@ import ViewEventRegistration from './EventRegistration/ViewData';
 import News from './News/AllData';
 import EditNews from './News/EditData';
 import ViewNews from './News/ViewData';
+import AddNews from './News/AddData';
 
 import Services from './Services/AllData';
 import EditServices from './Services/EditData';
@@ -40,16 +41,16 @@ export class Admin_navbar extends Component {
             <div>
                 <Router>
                     <Switch>
-                        <div className="row mt-2 shadow pt-2 pb-2 pl-2 pr-2">
-                        <NavLink exact to="/admin"><div className="mr-3">Admin</div></NavLink>
-                        <NavLink  to="/admin/Appointment"><div className="mr-3">Doctor Appointment</div></NavLink>
-                        <NavLink to="/admin/Dept_Appoint"><div className="mr-3">Department Appointment</div></NavLink>
-                        <NavLink to="/admin/Career"><div className="mr-3">Career</div></NavLink>
-                        <NavLink to="/admin/Contacts"><div className="mr-3">Contacts</div></NavLink>
-                        <NavLink to="/admin/EventInfo"><div className="mr-3">Event Info</div></NavLink>
-                        <NavLink to="/admin/EventRegistration"><div className="mr-3">Event Registration</div></NavLink>
-                        <NavLink to="/admin/News"><div className="mr-3">News</div></NavLink>
-                        <NavLink to="/admin/Services"><div className="mr-3">Services</div></NavLink>
+                        <div className="p-3 mb-2 bg-gradient-light row shadow">
+                        <NavLink exact to="/admin"><div className="m-3">Admin</div></NavLink>
+                        <NavLink  to="/admin/Appointment"><div className="m-3">Doctor Appointment</div></NavLink>
+                        <NavLink to="/admin/Dept_Appoint"><div className="m-3">Department Appointment</div></NavLink>
+                        <NavLink to="/admin/Career"><div className="m-3">Career</div></NavLink>
+                        <NavLink to="/admin/Contacts"><div className="m-3">Contacts</div></NavLink>
+                        <NavLink to="/admin/EventInfo"><div className="m-3">Event Info</div></NavLink>
+                        <NavLink to="/admin/EventRegistration"><div className="m-3">Event Registration</div></NavLink>
+                        <NavLink to="/admin/News"><div className="m-3">News</div></NavLink>
+                        <NavLink to="/admin/Services"><div className="m-3">Services</div></NavLink>
                         </div>
                     </Switch>
                     
@@ -80,6 +81,7 @@ export class Admin_navbar extends Component {
                     <Route exact path="/admin/News" component={News}/>
                     <Route exact path="/admin/News/edit/:id" component={EditNews}/>
                     <Route exact path="/admin/News/view/:id" component={ViewNews}/>
+                    <Route exact path="/admin/News/AddData" component={AddNews}/>
 
                     <Route exact path="/admin/Services" component={Services}/>
                     <Route exact path="/admin/Services/edit/:id" component={EditServices}/>

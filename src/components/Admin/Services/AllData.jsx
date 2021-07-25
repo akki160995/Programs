@@ -26,8 +26,8 @@ const AllData = () => {
     <div>
         
       <div className="container-fluid">
-            <div>
-                <Link className="btn btn-primary mr-2" to={`/admin/Services/AddData`}>ADD</Link>
+            <div className="mt-5 mb-5 float-right mr-3">
+                <Link className="btn btn-primary mr-2" to={`/admin/Services/AddData`}>ADD News Records</Link>
             </div>
             <div className="py-4">
                 <hr/>

@@ -4,17 +4,8 @@ import Navbar from './Navbar';
 import "./Menu_Name.css";
 import "./News.css";
 import headertabs from './Images/headertabs4.jpg';
-import { NavLink } from "react-router-dom"; 
-import logo from './Images/logo.png';
-import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
-import {FaLanguage} from 'react-icons/fa';
-import {FaStethoscope} from 'react-icons/fa';
-import {FaFax} from 'react-icons/fa';
-import {FaFacebookF} from 'react-icons/fa';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import CallIcon from '@material-ui/icons/Call';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import { NavLink } from "react-router-dom";
+import Footer from '../Layout/Footer/Footer';
 
 const News = () => {
 
@@ -194,77 +185,9 @@ const News = () => {
                   </div>
             </div>
         </div>
-        <div className="Footer"> <br/>
-            <div className="Container1">
-                <div className="Cleft">
-                    <div className="top">
-                        <NavLink to="/"><img src={logo} alt="Logo"/></NavLink>
-                    </div>
-                    <div className="mid">
-                        <NavLink to="/news"><h3><FaAmericanSignLanguageInterpreting size="50"/> &nbsp;Interpreter</h3></NavLink>
-                    </div>
-                    <div className="center">
-                    <NavLink to="/news"><h3><FaLanguage size="50" /> &nbsp;Language</h3></NavLink>
-                    </div>
-                </div>
-                <div className="Cmid">
-                        <div className="head">
-                        <h3>Quicklinks</h3>
-                        </div>
-                        <div className="link">
-                            <div className="leftlink">
-                                <NavLink to="/news">A-Z listing</NavLink><hr/>
-                                <NavLink to="/news">Parking</NavLink><hr/>
-                                <NavLink to="/news">Visiting Hours</NavLink><hr/>
-                                <NavLink to="/news">Finding Around</NavLink>  
-                            </div>   
-                            <div className="rightlink">
-                                <NavLink to="/news">Patient Support</NavLink><hr/>
-                                <NavLink to="/news">Covid-19 Support</NavLink><hr/>
-                                <NavLink to="/news">Condition Service</NavLink><hr/>
-                                <NavLink to="/news">Emegency</NavLink>
-                            </div> 
-                        </div>
-                </div>
-                <div className="Cright">
-                        <div className="heading">
-                        <h3>Contact Us</h3>
-                        </div>
-                        <div className="contactdetail">
-                            <div className="numbers">
-                                <NavLink to="/news"><CallIcon />&nbsp;&nbsp;+62 8888 999</NavLink><br/><hr/>
-                                <NavLink to="/news"><FaStethoscope />&nbsp;&nbsp;&nbsp;+62 8888 333</NavLink><br/><hr/>
-                                <NavLink to="/news"><FaFax />&nbsp;&nbsp;&nbsp;+62 8888 444</NavLink>
-                            </div>
-                            <div className="place">
-                                <NavLink to="/news"><LocationOnIcon />&nbsp;&nbsp;Riverside Building,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>London, SE-90</span></NavLink>
-                                <br/><br/><br/>
-                                <div className="icons">
-                                    <NavLink to="/news"><FaFacebookF/></NavLink>
-                                    <NavLink to="/news"><TwitterIcon/></NavLink>
-                                    <NavLink to="/news"><InstagramIcon/></NavLink>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div className="Container2">
-                    <div className="Side1">
-                        <NavLink to="/news">Copyright</NavLink>
-                        <NavLink to="/news">Accessibility</NavLink>
-                        <NavLink to="/news">Disclaimer</NavLink>
-                        <NavLink to="/news">Privacy</NavLink><br/><br/>
-                        <NavLink to="/news">Sitemap</NavLink>
-                        <div className="bottom">
-                            <p>© WeCare London Hospital 2021 (CC)<br/> London Department for Health and Ageing</p>
-                        </div>
-                    </div>
-                    <div className="Side2">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ultrices dui sapien eget mi proin sed libero enim sed. A erat nam at lectus urna duis convallis. Ac turpis egestas maecenas pharetra convallis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Facilisi etiam dignissim diam quis. </span>						
-                    </div>
-            </div>
-        </div>
-  </>
+        
+        <Footer/>
+        </>
   );
   
 };

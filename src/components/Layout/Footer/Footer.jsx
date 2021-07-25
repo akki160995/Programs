@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './footerx.css';
-import logo from '../../Resources/logo-flamingo-color.png';
+import logo from '../../Project/Images/logo.png';
 import {FaAmericanSignLanguageInterpreting} from 'react-icons/fa';
 import {FaLanguage} from 'react-icons/fa';
 import {FaStethoscope} from 'react-icons/fa';
@@ -18,20 +18,20 @@ class Footer extends Component {
                 <hr/>
                 <div className="row">
                     <div className=" col-xl-4  col-md-6 border-right ">
-                        <div className="logo mx-auto">
+                        <div className="logo">
                             <a href="./"><img src={logo} alt="Logo"/></a>
                         </div>
-                        <div className="col d-flex flex-nowrap icons border-top ">
-                            <h3 className=" border-right"><a href="./"><FaAmericanSignLanguageInterpreting/> &nbsp;Interpreter</a></h3><hr/>
-                            <h3 className="p-2"><a href="./"><FaLanguage /> &nbsp;Language</a></h3><hr/>
+                        <div className="col d-flex flex-nowrap  border-top ">
+                            <div className=" border-right icons"><a href="./"><FaAmericanSignLanguageInterpreting className="symbol"/> <span className="iconstext">Interpreter</span></a></div><hr/>
+                            <div className="icons"><a href="./"><FaLanguage className="symbol" /> <span className="iconstext">Language</span></a></div><hr/>
                         </div>
                     </div>
 
 
                     <div className="col-xl-4 col-md-6 border-right">
-                    <h3>Quicklinks </h3>
+                    <div  className="Footerheading">Quicklinks </div>
                         <div className="row">
-                            <div className="col">
+                            <div className="col FooterList">
                                 <div><a href="/services">A-Z listing</a></div><hr/>
 
                                 <div><a href="./contact">Parking</a></div><hr/>
@@ -40,7 +40,7 @@ class Footer extends Component {
 
                                 <div><a href="./">Finding Around</a></div><hr/>
                             </div>
-                            <div className="col">
+                            <div className="col FooterList">
 
                                 <div><a href="./">Patient Support</a></div><hr/>
 
@@ -53,10 +53,10 @@ class Footer extends Component {
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6">
-                        <h3>Contact Us</h3>
+                        <div className="Footerheading">Contact Us</div>
                         <div className="row">
       
-                            <div className="col">
+                            <div className="col FooterList">
                                 <div><a href="./"><CallIcon /> +62 8888 999</a></div><hr/>
 
                                 <div><a href="./"><FaStethoscope /> +62 8888 333</a></div><hr/>
@@ -64,16 +64,16 @@ class Footer extends Component {
                                 <div><a href="./"><FaFax /> +62 8888 444</a></div><hr/>
 
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 FooterList">
                                 <div>
                                     <a href="./">
                                         <LocationOnIcon />Riverside Building,London, SE-90
                                     </a><hr/>
                                 </div>
-                                <div>
-                                        <a href="./" className="p-2"><FaFacebookF/></a>
-                                        <a href="./" className="p-2"><TwitterIcon/></a>
-                                        <a href="./" className="p-2"><InstagramIcon/></a> 
+                                <div className="row ml-3">
+                                        <a href="./" className="p-0 "><FaFacebookF/></a>
+                                        <a href="./" className="p-0"><TwitterIcon/></a>
+                                        <a href="./" className="p-0"><InstagramIcon/></a> 
                                 </div>
                                 
                             </div>   
@@ -83,7 +83,7 @@ class Footer extends Component {
 
                 <div class=" row ">
                       <div className="col-sm-4">
-                          <div className="row bottom_menu p-2 mr-2">
+                          <div className="row FooterList p-2 mr-2">
                           <div className="p-2"><a href="./" >Copyright</a></div>
                             <div className="p-2"><a href="./">Accessibility</a></div>
                             <div className="p-2"><a href="./" >Disclaimer</a></div>
