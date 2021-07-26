@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import './css/style.css';
+import './Home.css';
 import Ambulance from './Images/iconambulance.png';
 import Stetoskop from './Images/iconstetoskop.png'
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
-import ControlledCarousel from './ControlledCarousel';
+import ControlledCarousel from '../Layout/ControlledCarousel';
 import doctor1 from './Images/doctor-1.jpg';
 import doctor2 from './Images/doctor-2.jpg';
 import doctor3 from './Images/doctor-3.jpg';
@@ -31,8 +31,8 @@ const Home = () => {
                 <div class="row ml-0 border-left border-right border-bottom border-top">
                     <div class="col-lg-3 ">
       
-                        <div className="mt-3">Coming to WeCare Hospital</div>
-                        <div className="nameabout">
+                        <div className="Heading-s">Coming to <br/>WeCare Hospital</div>
+                        <div className="Lists">
                             <li>Transport and parking</li><hr/>
                             <li>Finding your way Around</li><hr/>
                             <li>Visiting and Visiting Hours</li><hr/>
@@ -91,28 +91,28 @@ const Home = () => {
                     </div>
 
                     <div class="col-lg-3 mr-0 ml-0 border-right color-orange">
-                        <div className="mt-3">
-                            <b><small>Dates</small></b><br/>
-                                <h4>Vaccine Dates</h4>
+                        <div className="mt-0">
+                            <b><small><strong>Dates</strong></small><br/>
+                                <h1>Vaccine Dates</h1></b>
                         </div>
                             
-                        <div className="row">
+                        <div className="row mt-2">
                             <img src={Doctor1} alt="Doctor1" className="circle col"/>
-                            <div className="mt-4">
+                            <div className="m-auto col">
                                 Vaccine for Eldery<br/>
                                 19 April 2021
                             </div>
                         </div>
 
-                        <div className="row">
+                        <div className="row mt-2">
                             <img src={Doctor2} alt="Doctor2" className="circle col "/>
-                            <div className="mt-4">
+                            <div className="m-auto col">
                                 Vaccine for Public<br/>
                                 21 April 2021
                             </div>
                         </div>
 
-                        <div className="mt-auto">
+                        <div className="p-3">
                             <b>All Dates</b>
                         </div>
                             
@@ -120,24 +120,25 @@ const Home = () => {
 
 
                     <div class="col-lg-4 mr-0 ml-0">
-                        <div className="ambulance">
+                        <div className="ambulanceHome">
                             <div>
                                 <img src={Ambulance} alt="Stetoscope"/>
                             </div>
                                         
-                            <div className="icon_text">
+                            <div className="icon_text_Home">
                                 <span>Do you have</span><br/>
                                 <span>an Emergency?</span>
                             </div>
                         </div>
 
                         <div>
-                            <div className="inline_heading">
-                                <b>Looking<br/>
-                                For Something?</b><br/>
-                                <input type="text" placeholder="Search" / >
+                            <div className="Heading-s">
+                                Looking<br/>
+                                For Something?<br/>
+                                
                             </div>
-                            <div className=" nameabout col">
+                            <input type="text" placeholder="Search" / >
+                            <div className="Lists">
                                 <li>
                                      View A–Z list of services</li><hr/>
                                 <li>
@@ -152,11 +153,11 @@ const Home = () => {
                     
 
                     <div class="col-lg-4 mr-0 ml-0">
-                        <div className="inline_heading">
-                            <b>Find our<br/>
-                            Department Here</b>
+                        <div className="Heading-s">
+                            Find our<br/>
+                            Department Here
                         </div>
-                        <div className="nameabout col">
+                        <div className="Lists">
                             <li>
                                 Geriatric Department
                             </li><hr/>
@@ -183,12 +184,11 @@ const Home = () => {
                     
                     <div class="col-lg-4 mr-0 ml-0 border-right colbox">
                         <div>
-                            <div className="inline_heading">
-                                <b>
+                            <div className="Heading-s">
                                 Consulting with<br/>
-                                Doctor Specialist</b>
+                                Doctor Specialist
                             </div>
-                            <div className="nameabout col">
+                            <div className="Lists">
                                 <li>
                                     Children Specialist
                                 </li><hr/>
@@ -203,11 +203,11 @@ const Home = () => {
                                 </li>
                             </div>
                         </div>
-                        <div className="stetoscope">
-                            <div className="">
+                        <div className="stetoscopeHome">
+                            <div className="m-auto">
                                 <img src={Stetoskop} alt="Stetoscope"/>
                             </div>
-                            <div className="icon_text">
+                            <div className="icon_text_Home">
                                 <span>Booking</span><br/>
                                 <span>your dates Here</span>
                             </div>
@@ -219,13 +219,11 @@ const Home = () => {
             <NewsFlex/>   
 
             <div className="container mt-3 h-100">
-                <div className="row mx-auto taketour">
+                <div className="row taketour">
                     <div className="col-md-3">
-                        <div className="">
-                            LEARN MORE ABOUT OUR WORLD-CLASS FACILITY
-                        </div>
-                        <div>
-                            Discover More
+                        <div className="heading_white">
+                            LEARN MORE ABOUT OUR WORLD-CLASS FACILITY<br/>
+                            <small>Discover More</small>
                         </div>
                     </div>
                     <div className="col-md-9">
@@ -236,7 +234,7 @@ const Home = () => {
 
             <div className="container mt-3" >
                 <div className="row ml-0 border-left border-right border-top border-bottom">
-                    <div className="col-md-3">
+                    <div className="col-md-3 Heading-s">
                         Hospital<br/>Service 24/7
                     </div>
                     <div className="col-md-9"> 
@@ -252,7 +250,7 @@ const Home = () => {
 
             <div className="container mt-3 Clinic-info">
                 <div className="row ml-0 border-left border-right border-top border-bottom">
-                    <div className="col-md-3 mt-3 col">                     
+                    <div className="col-md-3 ml-0 Lists">                     
                         <li>
                             Routine Medical Care
                         </li>
@@ -284,15 +282,15 @@ const Home = () => {
                     </div>
 
                     <div className="col-md-9">
-                        <div className="">Service Overview</div>
+                        <div className="Heading-s ml-0">Service Overview</div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at urna. Erat imperdiet sed euismod nisi. Turpis egestas maecenas pharetra convallis posuere morbi. Amet facilisis magna etiam tempor orci eu lobortis. Neque sodales ut etiam sit. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Odio aenean sed adipiscing diam. Eu mi bibendum neque egestas congue quisque egestas diam in. Augue eget arcu dictum varius duis. Id aliquet risus feugiat in ante.</p>
                         
                     <div className="row">
-                        <div className="col-md-6 ">
-                            <img src={Doctorbgtab}  alt="Doctorimg"/>
+                        <div className="col-md-6 serviceimg ">
+                            <img src={Doctorbgtab} alt="Doctorimg"/>
                         </div>
-                        <div className="col-md-6 mb-3 border-left border-right border-top border-bottom">
-                            <div>Open Hours</div>
+                        <div className="col-md-6 servicetext border-left border-right border-top border-bottom">
+                            <div className="Heading-s ml-0">Open Hours</div>
                             <div>
                                 <div className="">
                                     Mon - Thurs

@@ -20,7 +20,7 @@ export default function SimpleSlider() {
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     nextArrow: (
         <div>
           <div className="next-slick-arrow"> <IoIosArrowDroprightCircle/> </div>
@@ -34,17 +34,18 @@ export default function SimpleSlider() {
   };
   
   return (
-    <>
+    <div className="container">
+    
     <Carousel {...settings} >
     <div className="slideimg1">
               <img  src={headertabs2} alt="Slide1" height="350px" width="535px"/><br/>
               <h2>Surgery Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <div className="Buttonslide1">
-                    <div className="btnslide1">
+                    <div className="btnslide1 ">
                             <NavLink to="/career">Apply Now</NavLink>
                     </div>
-                    <div className="Linkslide1">
+                    <div className="Linkslide1 m-3">
                             <NavLink to="/career">More Info</NavLink>
                     </div>
               </div>
@@ -103,6 +104,6 @@ export default function SimpleSlider() {
         </div>
     </Carousel>
     
-    </>   
+    </div>   
   );
 }

@@ -33,8 +33,8 @@ const Service = () => {
 
         <div className="container-fluid">
             <div className="row">
-                
-                <div className="col-lg-7  col-md-6">
+            <div className="col-lg-1"></div>
+                <div className="col-lg- 6 col-md-6">
                     <div className="Alphabates">
                         <div className="row">
                             <NavLink exact activeClassName="active_class col" to="/service"> A </NavLink>
@@ -145,14 +145,15 @@ const Service = () => {
                                     <h3>Service from to A-Z</h3>
                                 </div>  
                                 <div className="Search">
-                                    <form action="/news" method="get">
-                                        <input
+                                    <form action="/news" method="get" className="form-group">
+                                        <input 
+                                            className="form-control"
                                             type="text"
                                             id="header-search"
                                             placeholder="Keyword(S)"
                                             name="s"
                                         />
-                                        <button type="submit"><SearchOutlinedIcon/></button>
+                                        <button type="submit" className="btnsearch"><SearchOutlinedIcon className=""/></button>
                                     </form>
                                 </div>
                                 <div className="Specialist">
@@ -208,6 +209,8 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-1"></div>
+                
 
             </div>
         </div>

@@ -4,7 +4,7 @@ import "./Menu_Name.css";
 import Navbar from './Navbar';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import CareerFrm from '../Layout/forms/CareerFrm';
-import CareerLayoutSlider from "./CareerLayoutSlider";
+import CareerSlider from "./CareerSlider";
 import headertabs from './Images/headertabs5.jpg';
 import { NavLink } from "react-router-dom"; 
 import {VscCircleFilled} from 'react-icons/vsc';
@@ -119,7 +119,8 @@ const Career_layout = () => {
                 <span>Spotless Career</span>
             </div>
             <div className="careerslider">
-               <CareerLayoutSlider/> 
+                
+               <CareerSlider/>
             </div>
         </div>
 

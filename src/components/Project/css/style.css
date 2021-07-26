@@ -1,157 +1,34 @@
-*{
-    font-family: "Work Sans", sans-serif;
-    max-width: 100%;
+.Heading-s{
+    font-size: 18px;
+    color: #15374b;
+    margin-top: 25px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
-
-.row {  
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  @media screen and (min-width: 700px) {
-  .over{
-      z-index: 2;
-      position: absolute;
-      
-  }
-  .back{
-      z-index: 1;
-      position: relative;
-      top: 0px; 
-  }
+.heading_white{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 50%;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
-  .opacity{
-      opacity: 1;
-    position: relative;
-    width: 100%;
-    margin-top: -15%;
-    margin-bottom: -15%;
-    left: 0px;
-  }
-    .indicator{
-        position: absolute;
-        right: 15%;
-        z-index: 2;
-        align-self:center;
-        top:50%;
-        color: #fff;
-    }
-    .indicator a:hover{
-        text-decoration: none;
-        font-size: 22px;
-    }
-    .indicator p{
-        color: #fff;
-        word-wrap: break-word;
-        max-width: 30ch; 
-        font-size: 14px;
-    }
-    .indicatorheading{
-        color: #fff;
-        text-align: left;
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .indicatorheading hr{
-        background-color: #f16853;
-        
-    }
-        
-  .doctor-slider{
-    position: relative;
-    left: 0px;
-    width: 100%; 
-    height: 23rem;
-    object-fit: cover;
-    
-  }
-  .boxes{
-      padding-left: -15px;
-      padding-right: -15;
-      
-  }
-  .circle{
-        border-radius: 50%;
-        height:100%;
-        width:100%;
-        position: relative;
-        left: 0px;
-        margin-top: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-  }
-  .color-orange{
-      background-color: #f16853;
-      color: #fff;
-      width: 100%;
-  }
-  .fix{
-      position: relative;
-      width: 100%;  
-      bottom: -22px;;
-
-    
-  }
-  .doctorbg{
-      position: relative;
-      width: 100%;
-      height: 390px;
-      left: 0px;
-      object-fit: cover;
-  }
-  .taketour{
-      background-color:#15374b;
-      color:#fff;
-  }
-
-  .Clinic-info img{
-      width: auto;
-      height: 100%;
-      position: relative;
-      left: 0px;
-      object-fit: cover;
-  }
-  
-  .testimonial{
-    background-color: #f16853;
-    margin-right: 0px;
-    
-  }
-  .fix-Testimonial{
-        position: absolute;
-        z-index: 2;
-      
-        background-color: #15374b;
-        color:#fff;
-        text-align: center;
-        width: 250px;
-        height: 60px;
-  }
-  .Box_left{
-    text-transform: uppercase;
+.Lists{
+    box-sizing: border-box;
+    color: rgb(122, 122, 122);
     font-family: "Work Sans", sans-serif;
-    margin-top: 17px;
-    letter-spacing: 2.8px;
-    font-size: 15px;
-    text-align: center;
-  }
-  .testimonial img{
-    object-fit: cover;
-      height: 420px;
-      width: auto;
-      position: relative;
-      top: 0px;
-      z-index: 1;
-  }
-  .Testimonial-para{
-        color: #fff;
-        margin-top: 20%;
-    }
-    .Testimonial-name{
-        color: #fff;
-        margin-top: 20px;
-    }
-
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    letter-spacing: normal;
+    line-height: 21px;
+    list-style-type: none;
+    text-transform: none;
+}
+.Lists li:hover{
+    color: #f16853;
+}
 .header_flex{
     position:relative;
     background-color: #15374b;
@@ -180,7 +57,7 @@
     padding-bottom: 40px;
     
 }
-.col{  
+.cols{  
     font-weight: 400;
     hyphens: manual;
     letter-spacing: normal;
@@ -201,7 +78,7 @@
     font-size: 1.5rem;
 }
 .main_heading small{
-    font-size: 10px; 
+    font-size: 0.8rem; 
     text-decoration: none;
 }
 .bottom_line{
@@ -252,21 +129,21 @@ text-align: left
     margin-right: 7rem;
 }
 
-/*StetoScope Flex*/
-.stetoscope{
+/*For Home*/
+.stetoscopeHome{
     position: relative;
     background-color:#15374b;
     width: 80%;
     height: 140px;
-    margin: 10%;
+    margin: auto;
 }
-.stetoscope img{
+.stetoscopeHome img{
     width: 100px;
     margin: 20px;
        
 }
 
-.ambulance{
+.ambulanceHome{
     position: relative;
     background-color:#e12255;
     width: 80%;
@@ -274,12 +151,12 @@ text-align: left
     margin: 10%;
     padding-right: 50px;
 }
-.ambulance img{
+.ambulanceHome img{
     width: 100px;
     margin: 20px;  
 }
 
-.icon_text{
+.icon_text_Home{
     color: rgb(255, 255, 255);
     font-family: "Work Sans", sans-serif;
     font-size: 18px;
@@ -294,18 +171,63 @@ text-align: left
     margin: 10px;
     text-align: justify;
 }
+
+/*for other page*/
+.stetoscope{
+    position: relative;
+    background-color:#15374b;
+    width: 80%;
+    height: 200px;
+    margin: 10%;
+    
+}
+.stetoscope img{
+    height: 160px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.ambulance{
+    position: relative;
+    background-color:#e12255;
+    width: 80%;
+    height: 200px;
+    margin: 10%;}
+.ambulance img{
+    height: 160px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.icon_text{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    hyphens: manual;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    position:absolute;
+    top:65px;
+    right: 50px;
+    margin: 10px;
+    text-align: justify;
+}
+
 .left-Heading{
     font-family: "Work Sans", sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 33.6px;
     font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
     color: rgb(122, 122, 122);
-    text-align: left;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px;
 }
 .left-Heading span{
     color:rgb(21, 55, 75);
@@ -315,28 +237,35 @@ text-align: left
 color: rgb(21, 55, 75);
 display: inline;
 font-family: "Work Sans", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-hyphens: manual;
-letter-spacing: normal;
+font-size: 24px;
+font-weight: 400;
 line-height: 21.6px;
-text-align: left;
-text-decoration: rgb(21, 55, 75);
-text-transform: none;
 }
 p ,label{
     box-sizing: border-box;
-color: rgb(122, 122, 122);
-font-family: "Work Sans", sans-serif;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-hyphens: manual;
-letter-spacing: normal;
-line-height: 19.5px;
-margin-bottom: 14.4px;
-margin-top: 0px;
-text-align: justify;
-text-transform: capitalize
+    color: rgb(122, 122, 122);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin: auto;
+}
+
+
+.Search input {
+    white-space: nowrap;
+
+    width: 80%;
+    height: 15px;
+    background-color: #EEEEEE;
+
+    
+}
+.Search ::placeholder{
+    font-size: 18px;
+    color: #c0b5b5;
+}
+
+.Search {
+    position: absolute;
+
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import '../Project/css/style.css';
+import '../Project/Home.css';
 import Testimonial1 from './Images/testimonial-bg-1.jpg';
 import Testimonial2 from './Images/testimonial-bg-2.jpg';
 import Testimonial3 from './Images/testimonial-bg-3.jpg';

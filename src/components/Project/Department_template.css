@@ -158,36 +158,6 @@
     font-style: normal;
     color: #15374B;
 }
-.Search input {
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top:  20px;
-    padding-bottom: 20px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-    white-space: nowrap;
-	height: 26px;
-    width: 470px;
-    border-right: none;
-    background-color: #EEEEEE;
-}
-.Search ::placeholder{
-    font-size: 18px;
-    padding-left: 20px;
-    color: #c0b5b5;
-}
-.Search button {
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top:  0px;
-    padding-bottom: 12px;
-    margin-right: 78px;
-    white-space: nowrap;
-	height: 70px;
-    width: 50px;
-    border-left: none;
-    background-color: #EEEEEE;
-}
 .Specialist {
     padding-right: 80px;
     padding-left: 60px;

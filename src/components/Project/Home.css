@@ -1,102 +1,157 @@
-.Home {
-  width: 100vw;
-  height: 100vh;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.Logobar {
-  background-color: #02010100;
-  overflow: hidden;
-  width: 100%;
-}
-.Logobar .left {
-  padding-left: 140px;
-}
-
-.Logobar .right {
-  overflow: hidden;
-  padding-left: 600px;
-  margin-top: 0px;
-  position: absolute;
-}
-
-.Logobar .right a {
-  text-align: center;
-  padding: 18px 16px;
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-}
-.Logobar .right a:hover {
-  background-color: #02010100;
-  color: #F16853;
-} 
-.Logobar .right a.active {
-  background-color: #02010100;
-  color: #F16853;
-}
-.max-chars{
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
-
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row, .navbar {   
-    flex-direction: column;
+@media screen and (min-width: 700px) {
+  .over{
+      z-index: 2;
+      position: absolute;
+      
+  }
+  .back{
+      z-index: 1;
+      position: relative;
+      top: 0px; 
   }
 }
+  .opacity{
+      opacity: 1;
+    position: relative;
+    width: 100%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+    left: 0px;
+  }
+    .indicator{
+        position: absolute;
+        right: 15%;
+        z-index: 2;
+        align-self:center;
+        top:50%;
+        color: #fff;
+    }
+    .indicator a:hover{
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .indicator p{
+        color: #fff;
+        word-wrap: break-word;
+        max-width: 30ch; 
+        font-size: 14px;
+    }
+    .indicatorheading{
+        color: #fff;
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .indicatorheading hr{
+        background-color: #f16853;
+        
+    }
+        
+  .doctor-slider{
+    position: relative;
+    left: 0px;
+    width: 100%; 
+    height: 23rem;
+    object-fit: cover;
+    
+  }
+  .boxes{
+      padding-left: -15px;
+      padding-right: -15;
+      
+  }
+  .circle{
+        border-radius: 50%;
+        position: relative;
+        width: 100%;
+        
+  }
+  .color-orange{
+      background-color: #f16853;
+      color: #fff;
+      width: 100%;
+  }
+  .fix{
+      position: relative;
+      width: 100%;  
+      height: 200px;
+      top: 34px;
+
+    
+  }
+  .doctorbg{
+      position: relative;
+      width: 100%;
+      height: 390px;
+      left: 0px;
+      object-fit: cover;
+  }
+  .taketour{
+      background-color:#15374b;
+      color:#fff;
+  }
+
+  .Clinic-info img{
+      width: auto;
+      height: 100%;
+      position: relative;
+      left: 0px;
+      object-fit: cover;
+  }
+  
+  .testimonial{
+    background-color: #f16853;
+    margin-right: 0px;
+    
+  }
+  .Box_left{
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 17px;
+    letter-spacing: 2.8px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .fix-Testimonial{
+        position: absolute;
+        z-index: 2;   
+        background-color: #15374b;
+        color:#fff;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+  }
+  
+  .testimonial img{
+    object-fit: cover;
+      height: 500px;
+      width: 100%;
+      position: relative;
+      top: 0px;
+      z-index: 1;
+  }
+  .Testimonial-para{
+        color: #fff;
+        margin-top: 20%;
+    }
+    .Testimonial-name{
+        color: #fff;
+        margin-top: 20px;
+    }
+
+
+    .serviceimg img{
+      position: relative;
+      width: 100%;
+    }
+    .servicetext{
+      position: relative;
+      right: 10px;
+    }
+    .servicetext button{
+      color: #fff;
+      background-color: #15374b;
+      padding: 10px;
+      border: none;
+      margin-top: 20%;
+    }

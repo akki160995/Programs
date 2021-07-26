@@ -6,21 +6,24 @@
 .posters img {
     display: block;
     overflow: hidden;
+    width: auto;
+    height: 400px;
     transition: all .5s ease-in-out;
 }
 .posters:hover img{
-    width: 365px;
+    width: auto;
+    background-color:#f16853;
     transform: scale(1.2);
 }
 .overlay {
     position: absolute;
-    bottom: 0;
+    bottom: 0; 
     left: 0;
     right: 0;
     background-color: #f8f4f4;
     overflow: hidden;
-    width: 97%;
-    height: 5%;
+    width: 100%;
+    height: 0%;
     transition: .5s ease;
 }
   
@@ -38,27 +41,28 @@
     text-align: center;
   }
 .text h4{
-        float: left;
+  position: relative;
+        text-align: center;
         color: black;
-        font-size: 24px;
-        line-height: 0%;
+        font-size: 22px;
   }
 .text span{
-      float: left;
-      font-size: 20px;
+      text-align: center;
+      font-size: 15px;
+
       padding-bottom: 52px;
       color: #EA6657;
   }
 .text p{
-      float: left;
+      text-align: center;
       text-transform: capitalize;
       font-size: 18px;
       letter-spacing: 0.2px;
       color: #7a7a7a;
   }
 .icon{
-    float: left;
-    margin-top: 30px;
+    align-items: center;
+    margin-top: 20px;
 }
 .icon a{
     padding-left: 25px;
@@ -81,5 +85,5 @@
 .next-slick-arrow,
 .prev-slick-arrow  {
   color: #f16853;
-  font-size: 48px;
+  font-size: 40px;
 }

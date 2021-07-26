@@ -24,7 +24,7 @@ export default function SimpleSlider() {
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     nextArrow: (
         <div>
           <div className="next-slick-arrow"> <IoIosArrowDroprightCircle/> </div>
@@ -39,12 +39,16 @@ export default function SimpleSlider() {
   
   return (
     <>
-    <Carousel {...settings} >
-        <div className="Box">
-            <img src={teamdoctor1} alt="teamdoctor1" width="400px" height="590px" title="team-doctor-1"/>   
+    <div className="border-left border-right border-top border-bottom">
+        <div className="left-Heading">
+            Head <span>Doctor</span>
+        </div>
+    <Carousel {...settings} className="mr-2 ml-2">
+        <div className="posters">
+            <img src={teamdoctor1} alt="teamdoctor1" title="team-doctor-1"/>   
             <div className="overlay">
                 <div className="text">
-                    <div><h4>dr. Cole Young</h4></div>
+                    <div><h4>dr.e Young</h4></div>
                     <div><span>Head Surgery</span></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <div className="icon">
@@ -56,8 +60,8 @@ export default function SimpleSlider() {
                 </div>
             </div>
         </div> 
-        <div className="Box">
-            <img src={teamdoctor2} alt="teamdoctor2" width="400px" height="590px" title="team-doctor-2"/> 
+        <div className="posters">
+            <img src={teamdoctor2} alt="teamdoctor2" title="team-doctor-2"/> 
             <div className="overlay">
                 <div className="text">
                     <div><h4>dr. Josh Lawson</h4></div>
@@ -67,13 +71,13 @@ export default function SimpleSlider() {
                         <NavLink to="/about"><FaFacebookF/></NavLink>
                         <NavLink to="/about"><TwitterIcon/></NavLink>
                         <NavLink to="/about"><FaLinkedinIn/></NavLink>
-                        <NavLink to="/about"><InstagramIcon/></NavLink>
+                        <NavLink to="/about"><InstagramIcon/></NavLink> 
                     </div>
                 </div>
             </div>   
         </div>
-        <div className="Box">
-            <img src={teamdoctor3} alt="teamdoctor3" width="400px" height="590px" title="team-doctor-3"/>    
+        <div className="posters">
+            <img src={teamdoctor3} alt="teamdoctor3" title="team-doctor-3"/>    
             <div className="overlay">
                 <div className="text">
                     <div><h4>dr. Nathan Jones</h4></div>
@@ -88,8 +92,8 @@ export default function SimpleSlider() {
                 </div>
             </div>
         </div>
-        <div className="Box">
-            <img src={teamdoctor4} alt="teamdoctor4" width="400px" height="590px" title="team-doctor-4-2"/> 
+        <div className="posters">
+            <img src={teamdoctor4} alt="teamdoctor4" title="team-doctor-4-2"/> 
             <div className="overlay">
                 <div className="text">
                     <div><h4>dr. Mike Foenander</h4></div>
@@ -104,8 +108,8 @@ export default function SimpleSlider() {
                 </div>
             </div>
         </div>
-        <div className="Box">
-            <img src={teamdoctor5} alt="teamdoctor5" width="400px" height="590px" title="team-doctor-5"/>  
+        <div className="posters">
+            <img src={teamdoctor5} alt="teamdoctor5" title="team-doctor-5"/>  
             <div className="overlay">
                 <div className="text">
                     <div><h4>dr. Jessica McNamee</h4></div>
@@ -123,7 +127,7 @@ export default function SimpleSlider() {
         
        
     </Carousel>
-    
+    </div>
     </>   
   );
 }

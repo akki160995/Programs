@@ -1,7 +1,7 @@
 import React from 'react';
 const Error = () => {
   return <h1>
-    OOps! Its Error Page
+    Page Not Found...!
     </h1>
 
 };

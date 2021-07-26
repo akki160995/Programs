@@ -1,7 +1,4 @@
 import React,{Component} from "react";
-//import ReactApexCharts from "react-apexcharts";
-//import ReactDOM from "react-dom";
-//import ApexCharts from "apexcharts";
 import Chart from "react-apexcharts";
 
 class Achart extends Component {
@@ -85,15 +82,15 @@ render(){
   return (
     <div className="app">
       <div className="row">
-      <div className="mixed-chart">
-      <Chart
+        <div className="m-3">
+          <Chart
             options={this.state.options}
             series={this.state.series}
             type="bar"
-            height="600"
-            width="800"
-      />
-      </div>
+            height="auto"
+            width="100%"
+          />
+        </div>
       </div>
     </div>
   );

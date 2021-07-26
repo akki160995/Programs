@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../Project/css/style.css';
-import Slide1 from './Images/slide-1.jpg';
-import Slide2 from './Images/slide-4.jpg';
+import Slide1 from '../Project/Images/slide-1.jpg';
+import Slide2 from '../Project/Images/slide-4.jpg';
 
 function ControlledCarousel() {
         return (

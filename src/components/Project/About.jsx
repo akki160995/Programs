@@ -1,7 +1,5 @@
 import React from 'react';
-//import "./About.css";
 import Navbar from './Navbar';
-
 import Achart from "./Achart";
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Slider from "./Slider";
@@ -43,7 +41,7 @@ const About = () => {
                     <div className="col-lg-1"></div>
                     <div className="col-lg-6  col-md-6">
                         <div className="left-Heading">About <span>WCLH</span></div>
-                        <div className="left-inline Heading mt-2 mb-2">Overview </div>
+                        <div className="left-inlineHeading mt-2 mb-2">Overview </div>
                         <p className="mt-3">
                             Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. 
                         </p>
@@ -61,8 +59,8 @@ const About = () => {
                                 frameborder="0" 
                                 allowfullscreen/>
                         </div>
-                        <div className="profile">
-                            <h3>Company Profile Download</h3>
+                        <div className="Heading-s">
+                            <h4 >Company Profile Download</h4>
                         </div>
                         <div className="Lists">
                             <div className="leftlists">
@@ -74,24 +72,24 @@ const About = () => {
                         </div>
 
                         <div>
-                            <div className="inline-Heading">
-                                <h3>Leading the Way With Clinical Technology</h3>
+                            <div className="Heading-s">
+                                <h4>Leading the Way With Clinical Technology</h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. In ante metus dictum at tempor commodo ullamcorper a lacus. Ullamcorper sit amet risus nullam eget. Turpis egestas pretium aenean pharetra magna. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper.</p><p>Accumsan lacus vel facilisis volutpat est. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Molestie a iaculis at erat pellentesque. Ac tortor vitae purus faucibus ornare.</p>
                         </div>
-                        <div className="PatientGraph">
-                            <div className="Pname">
-                                <span>Patients Graph</span>
+                        <div className="border-left border-right border-top border-bottom ">
+                            <div className="Heading-s mt-4 ml-4">
+                                <h4>Patients Graph</h4>
                                 <p>2020 - 2021</p>
                             </div>
-                            <div className="graph">
+                            <div className="graph mb-3">
                                 <Achart/>
                             </div>
 
-                            <div>
+                        <div>
 
                             
-                            </div>
+                     </div>
                 </div>
 
 
@@ -105,7 +103,7 @@ const About = () => {
 
 
                             <div className="inline_heading">
-                                <h3>Doctor Specialist</h3>
+                                <h4>Doctor Specialist</h4>
                             </div>
                 <div className="nameabout col">
                         <NavLink to="/about"> Children Specialist</NavLink><br/><hr/>
@@ -116,7 +114,7 @@ const About = () => {
                         <NavLink to="/about"> Obstetrician Specialist</NavLink><br/>
                 </div>
                 <div className="inline_heading">
-                    <h3>Department Specialist</h3>
+                    <h4>Department Specialist</h4>
                 </div>
                 <div className="nameabout col">
                         <NavLink to="/about"> Geriatric Department</NavLink><br/><hr/>
@@ -128,7 +126,7 @@ const About = () => {
                         <NavLink to="/about"> Obstetrician/Gynecologists</NavLink><br/>
                 </div>
                 <div className="search inline_heading">
-                    <h3>Looking <br/> For Something?</h3>
+                    <h4>Looking <br/> For Something?</h4>
                 </div>
                 <div className="sbutton">
                     <form action="/news" method="get">
@@ -168,11 +166,17 @@ const About = () => {
                         <span>an Emergency?</span>
                     </div>
                 </div>
+                <div className="mb-5">
+                    <br/>
+                </div>
             </div>
         </div>
         </div>
     </div>
-    <Slider/>
+    <div className="container">
+        <Slider/>
+    </div>
+    
     <NewsFlex/>
     <Footer/>
     </>

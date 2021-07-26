@@ -41,7 +41,7 @@ const Career = () => {
 
                     <div className="col-lg-6  col-md-6">
                     <div className="left-Heading">Work at <span>WCLH</span></div>
-                        <div className="left-inline Heading mt-2 mb-2"><h3>Jobs Career</h3> </div>
+                        <div className="title1 mt-2 mb-2"><span>Jobs Career</span> </div>
 
                         <div className="para4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>	
@@ -81,7 +81,7 @@ const Career = () => {
 
                             
                                 <div className="inline_heading">
-                                    <h3>Search the <br/> Jobe Here</h3>
+                                    <h4>Search the <br/> Jobe Here</h4>
                                 </div>  
                                 <div className="Search">
                                     <form action="/news" method="get">
@@ -91,13 +91,13 @@ const Career = () => {
                                             placeholder="Keyword(S)"
                                             name="s"
                                         />
-                                        <button type="submit"><SearchOutlinedIcon/></button>
+                                        <button type="submit" className="btnsearch"><SearchOutlinedIcon/></button>
                                     </form>
                                 </div>
                                 <div className="inline_heading">
-                                    <h3>Job List <br/> From A to Z</h3>
+                                    <h4>Job List <br/> From A to Z</h4>
                                 </div>
-                                <div className="nameabout col">
+                                <div className="nameabout col ">
                                     <NavLink to="/career"> Children Specialist</NavLink><br/><hr/>
                                     <NavLink to="/career"> Cancer Specialist</NavLink><br/><hr/>
                                     <NavLink to="/career"> Heart Specialist</NavLink><br/><hr/>
@@ -108,7 +108,7 @@ const Career = () => {
                                     <NavLink to="/career"> Catering</NavLink><br/><hr/>
                                     <NavLink to="/career"> Car Park Services</NavLink><br/>
                                 </div>
-                            
+                            <div className="mb-5"><br/></div>
 
                         </div>
                     
@@ -125,11 +125,11 @@ const Career = () => {
 
     
             
-        <div className="SpotlessSlider">
-            <div className="slidername">
-                <span>Spotless Career</span>
+        <div className="container border-left border-right border-top border-bottom">
+            <div className="slidername m-2">
+                <h4>Spotless Career</h4>
             </div>
-            <div className="careerslider">
+            <div className="careerslider m-2">
                <CareerSlider/> 
             </div>
         </div>
