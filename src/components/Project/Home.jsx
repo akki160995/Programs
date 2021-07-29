@@ -15,11 +15,12 @@ import Doctorbgtab from "./Images/doctor-bg-tabs.jpg"
 import Footer from "../Layout/Footer/Footer";
 import Testimonial from './Testimonial';
 import ReactNavbar from '../Layout/ReactNavbar';
+import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 
 const Home = () => {
     return (
         <div >
-            <div>
+            <div className="fixed">
                 <ReactNavbar className="over"/>
             </div>
             
@@ -27,9 +28,40 @@ const Home = () => {
                 <ControlledCarousel className="back"/>
             </div>
 
+            <div>
+                <label for="slide-menu-right" class="menu-button">Menu</label>
+                
+                    <div class="slide-menu">
+                        <input id="slide-menu-right" class="menu-toggle" type="checkbox" />
+    <div class="menu-wrap">
+        <label for="slide-menu-right" class="menu-close">Close</label>        
+        <h1 class="menu-title">Menu</h1>
+        <div class="menu-list">
+            <ul>
+                <li>
+                    <a href="/">Broccoli</a>
+                </li>
+                <li>
+                    <a href="/">Tomato</a>
+                </li>
+                <li>
+                    <a href="/">Cucumber</a>
+                </li>
+                <li>
+                    <a href="/">Kale</a>
+                </li>
+                <li>
+                    <a href="/">Celery</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+            </div>
+
             <div class="container ">
                 <div class="row ml-0 border-left border-right border-bottom border-top">
-                    <div class="col-lg-3 ">
+                    <div class="col-lg-3 m-0 p-0">
       
                         <div className="Heading-s">Coming to <br/>WeCare Hospital</div>
                         <div className="Lists">
@@ -41,7 +73,7 @@ const Home = () => {
 
                     </div>  
     
-                    <div class="col-lg-3 mr-0 ml-0">
+                    <div class="col-lg-3 mr-0 ml-0 mb-0">
                         <Carousel fade interval={2000} indicators={false}>
                             <Carousel.Item>
                                 <img
@@ -67,8 +99,8 @@ const Home = () => {
                         </Carousel>
                     </div>
                     
-                    <div class="col-lg-3 mr-0 ml-0 color-orange ">
-                        <div className=" color-orange ml-0">
+                    <div class="col-lg-3 mr-0 ml-0 mb-0 color-orange ">
+                        <div className=" ml-0 mb-0">
                             <div className="">                    
                                 <small>
                                     <b>Accessing</b> 
@@ -76,7 +108,8 @@ const Home = () => {
                                 <h1>Our Service</h1>
                             </div>
                             <div className="mt-4">
-                                <input type="search" placeholder="search..." className="border-bottom"></input><hr/>
+                                <input type="text" placeholder="search..." className="home_search"></input>
+                                <SearchOutlinedIcon className="search_icon"/>
                             </div>
                         </div>
                         <div className="row ">
@@ -120,12 +153,12 @@ const Home = () => {
 
 
                     <div class="col-lg-4 mr-0 ml-0">
-                        <div className="ambulanceHome">
+                        <div className="ambulance">
                             <div>
                                 <img src={Ambulance} alt="Stetoscope"/>
                             </div>
                                         
-                            <div className="icon_text_Home">
+                            <div className="icon_text">
                                 <span>Do you have</span><br/>
                                 <span>an Emergency?</span>
                             </div>
@@ -137,7 +170,14 @@ const Home = () => {
                                 For Something?<br/>
                                 
                             </div>
-                            <input type="text" placeholder="Search" / >
+                            <div className="sbutton ">
+                    
+                                <div className="mt-4">
+                                    <input type="text" placeholder="Keyword(s)..." className="search_box"></input>
+                                    <SearchOutlinedIcon className="search_icons"/>
+                                </div>
+                            </div>
+                
                             <div className="Lists">
                                 <li>
                                      View A–Z list of services</li><hr/>
@@ -203,11 +243,11 @@ const Home = () => {
                                 </li>
                             </div>
                         </div>
-                        <div className="stetoscopeHome">
+                        <div className="stetoscope">
                             <div className="m-auto">
                                 <img src={Stetoskop} alt="Stetoscope"/>
                             </div>
-                            <div className="icon_text_Home">
+                            <div className="icon_text">
                                 <span>Booking</span><br/>
                                 <span>your dates Here</span>
                             </div>
@@ -234,17 +274,10 @@ const Home = () => {
 
             <div className="container mt-3" >
                 <div className="row ml-0 border-left border-right border-top border-bottom">
-                    <div className="col-md-3 Heading-s">
+                    <div className="col-md-3 Heading-s mt-2 ml-0 mr-0 mb-2">
                         Hospital<br/>Service 24/7
                     </div>
-                    <div className="col-md-9"> 
-                        <div className="col border-bottom">
-                            <br/>
-                        </div>
-                        <div className=" col">
-
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
 

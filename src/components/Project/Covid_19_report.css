@@ -188,7 +188,7 @@
 }
 .Cname{
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 25px;
     line-height: 60%;
     letter-spacing: 0.9px;
 }
@@ -198,6 +198,7 @@
     font-weight: 550;
 }
 .Cname p{
+    margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
 }

@@ -45,12 +45,12 @@ export default function SimpleSlider() {
                     <div className="btnslide1 ">
                             <NavLink to="/career">Apply Now</NavLink>
                     </div>
-                    <div className="Linkslide1 m-3">
+                    <div className="Linkslide1">
                             <NavLink to="/career">More Info</NavLink>
                     </div>
               </div>
         </div>
-        <div className="slideimg2">
+        <div className="slideimg1">
               <img  src={headertabs3} alt="Slide2" height="350px" width="535px"/><br/>
               <h2>Doctor Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -63,7 +63,7 @@ export default function SimpleSlider() {
                     </div>
               </div>
         </div>
-        <div className="slideimg3">
+        <div className="slideimg1">
               <img  src={headertabs4} alt="Slide3" height="350px" width="535px"/><br/>
               <h2>Health Care</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -76,7 +76,7 @@ export default function SimpleSlider() {
                     </div>
               </div>
         </div>
-        <div className="slideimg4">
+        <div className="slideimg1">
               <img  src={headertabs1} alt="Slide4" height="350px" width="535px"/><br/>
               <h2>Nurses Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -89,7 +89,7 @@ export default function SimpleSlider() {
                     </div>
               </div>
         </div>
-        <div className="slideimg5">
+        <div className="slideimg1">
               <img  src={headertabs11} alt="Slide5" height="350px" width="535px"/><br/>
               <h2>Children Specialist</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>

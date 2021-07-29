@@ -35,45 +35,37 @@ const Contact = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-1"></div>
-                    <div className="col-lg-6  col-md-6">
-                        <div className="left-Heading">Contact  <span>WCLH</span></div>
-                            <div className="left-inline Heading mt-2 mb-2">
-                                <h3>Emergencies</h3>
+                    <div className="col-lg-6  col-md-6 ">
+                        <div className="left-Heading border-left">Contact  <span>WCLH</span></div>
+                            <div className="left-inline Heading-s mt-2 mb-2 ml-0">
+                                <h4>Emergencies</h4>
                             </div>
                             <p className="mt-3">
                                 Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. 
                             </p>
 
-                            <div className="title4">
-                    <h4>Emergencies </h4>
-                </div>
-                <div className="para6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>						                
-                </div>
-                <div className="EmergencyBox">
-                    <div class="hr-theme-slash-2">
-                            <div class="hr-line"></div>
-                            <div class="hr-icon"><FaAmbulance size="35"/></div>
-                            <div class="hr-line"></div>
-                    </div> 
-                    <div className="border">
-                            <div className="bcovidleft">
-                                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Ut elit tellus,luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                            </div>
-                            <div className="bcovidright">
-                               <NavLink to="/contact">Emergency </NavLink>
-                            </div>
+                            <div className="">
+                                <div class="hr-theme-slash-2">
+                                        <div class="hr-icon"><FaAmbulance size="35"/></div>
+                                    </div> 
+                                    <div className="borderEmergency row">
+                                    <div className=" col mt-4">
+                                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Ut elit tellus,luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                    </div>
+                                    <div className=" col">
+                                        <button className="bcovidbtn"><NavLink to="/contact"><p>Emergency</p> </NavLink></button>
+                                    </div>
 
-                    </div> 
-                </div>
-                <div className="title3">
+                                </div> 
+                            </div>
+                <div className="Heading-s ml-0">
                     <h4>Covid 19 Emergencies</h4>
                 </div>
-                <div className="points">
-                        <NavLink  to="/contact"><FaAmbulance/>&nbsp;&nbsp; Emergency: 777 888 999</NavLink><hr/><br/>
-                        <NavLink  to="/contact"><RiVirusFill/>&nbsp;&nbsp; Covid 19: 777 888 111</NavLink><br/>
+                <div className="Lists">
+                        <NavLink className="Li" to="/contact"><FaAmbulance/> &nbsp;&nbsp;Emergency: 777 888 999</NavLink><hr/>
+                        <NavLink className="Li" to="/contact"><RiVirusFill/> &nbsp;&nbsp;Covid 19: 777 888 111</NavLink>
                 </div>
-                <div className="title3">
+                <div className="Heading-s ml-0">
                     <h4>WELH Address</h4>
                 </div>
                 <div className="para6">
@@ -89,27 +81,25 @@ const Contact = () => {
                                 <strong>WCLH Hotline</strong> 
                             </div>
                             <div>
-                                <div className="inline_heading">
-                                    Emergency Hotline
+                                <div className="Heading-s pl-4 mt-5">
+                                    <h5>Emergency Hotline</h5>
                                 </div>
-                                <div className="nameabout col">
-                                
-                                    Emergency:<a href="/Contact"> 777 888 999</a><hr/>
-                                    Covid 19:<a href="/Contact"> 777 888 111</a>
-                                   
+                                <div className="nameabout col mt-0">
+                                    <NavLink className="Li" to="/contact"><FaAmbulance/> &nbsp;&nbsp;Emergency: 777 888 999</NavLink><hr/>
+                                    <NavLink className="Li" to="/contact"><RiVirusFill/> &nbsp;&nbsp;Covid 19: 777 888 111</NavLink>
                                 </div>
 
-                                <div>
-                                    <strong className="inline_heading">E-Mail Hotline</strong>
+                                <div className="Heading-s pl-4 mt-5">
+                                    <h5>E-Mail Hotline</h5>
                                 </div>
-                                <div className=" nameabout col">
+                                <div className=" nameabout col mt-0">
                                     <a href="/Contact">info@wclh.co.uk</a><hr/>
                                     <a href="/Contact">report@wclh.co.uk</a>
                                 </div>
-                                <div>
-                                <strong className="inline_heading">Department Hotline</strong>
+                                <div className="Heading-s pl-4 mt-5">
+                                <h5>Department Hotline</h5>
                                 </div>
-                                <div className=" nameabout col">
+                                <div className=" nameabout col mt-0">
                                     <a href="/Contact">Geriatric Department: Ext 111</a><hr/>
                                     <a href="/Contact">Allergists Department: Ext 222</a><hr/>
                                     <a href="/Contact">Dermatologists Department: Ext 333</a><hr/>

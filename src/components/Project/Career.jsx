@@ -46,30 +46,30 @@ const Career = () => {
                         <div className="para4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>	
                         </div>
-                        <div className="title1">
+                        <div className="Heading-s ml-0">
                             <h4>Requirements to Apply</h4>
                         </div>
                         <div className="para4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>	
                         </div>
-                        <div className="points">
-                            <NavLink  to="/career"><VscCircleFilled/>&nbsp;&nbsp; GPA Minimum 3.25 </NavLink><hr/><br/>
-                            <NavLink  to="/career"><VscCircleFilled/>&nbsp;&nbsp; Graduated from Reputable University </NavLink><hr/><br/>
-                            <NavLink  to="/career"><VscCircleFilled/>&nbsp;&nbsp; Fluent in English </NavLink><hr/><br/>
-                            <NavLink  to="/career"><VscCircleFilled/>&nbsp;&nbsp; Can Work With Team </NavLink><br/>
+                        <div className="Lists">
+                            <NavLink className="Li" to="/career"><VscCircleFilled/> GPA Minimum 3.25 </NavLink><hr/>
+                            <NavLink className="Li" to="/career"><VscCircleFilled/> Graduated from Reputable University </NavLink><hr/>
+                            <NavLink className="Li" to="/career"><VscCircleFilled/> Fluent in English </NavLink><hr/>
+                            <NavLink className="Li" to="/career"><VscCircleFilled/> Can Work With Team </NavLink>
                         </div>
 
-                        <div className="title1">
+                        <div className="Heading-s ml-0">
                             <h4>WCLH Career Tips</h4>
                         </div>
-                        <div className="Question">
+                        <div className="Question mt-3">
                             <Accordioncareer/>
                         </div>
                         <div className="title1">
                             <h4>Work Environments</h4>
                         </div>
                         <div className="video1">
-                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/XHOmBV4js_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/XHOmBV4js_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
 
@@ -83,21 +83,17 @@ const Career = () => {
                                 <div className="inline_heading">
                                     <h4>Search the <br/> Jobe Here</h4>
                                 </div>  
-                                <div className="Search">
-                                    <form action="/news" method="get">
-                                        <input
-                                            type="text"
-                                            id="header-search"
-                                            placeholder="Keyword(S)"
-                                            name="s"
-                                        />
-                                        <button type="submit" className="btnsearch"><SearchOutlinedIcon/></button>
-                                    </form>
+                                <div className="sbutton">
+                    
+                                    <div className="mt-4">
+                                        <input type="text" placeholder="Keyword(s)..." className="search_box"></input>
+                                        <SearchOutlinedIcon className="search_icons"/>
+                                    </div>
                                 </div>
                                 <div className="inline_heading">
                                     <h4>Job List <br/> From A to Z</h4>
                                 </div>
-                                <div className="nameabout col ">
+                                <div className="nameabout ">
                                     <NavLink to="/career"> Children Specialist</NavLink><br/><hr/>
                                     <NavLink to="/career"> Cancer Specialist</NavLink><br/><hr/>
                                     <NavLink to="/career"> Heart Specialist</NavLink><br/><hr/>
@@ -125,11 +121,11 @@ const Career = () => {
 
     
             
-        <div className="container border-left border-right border-top border-bottom">
-            <div className="slidername m-2">
+        <div className="container mt-4 border-left border-right border-top border-bottom">
+            <div className="slidername m-4">
                 <h4>Spotless Career</h4>
             </div>
-            <div className="careerslider m-2">
+            <div className="careerslider m-3">
                <CareerSlider/> 
             </div>
         </div>

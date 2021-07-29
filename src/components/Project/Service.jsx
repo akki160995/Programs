@@ -65,13 +65,9 @@ const Service = () => {
                             <NavLink exact activeClassName="active_class col" to="/"> Z </NavLink>
                         </div>
                     </div>
-
-                    <div>
-
-                        <div className="Information">
-                            <div className="leftdetail">
-                                <h4> A </h4><hr  color="#f5ecec"/>
-                                <div className="title1">
+                    <div className="container">
+                        <h4> A </h4><hr  color="#f5ecec"/>
+                        <div className="title1">
                                     <h4>Allergy &amp; Immunology</h4>
                                 </div>
                                 <div className="para4">
@@ -113,24 +109,21 @@ const Service = () => {
                                 <div className="para4">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. In ante metus dictum at tempor commodo ullamcorper a lacus.</p>
                                 </div>
-                            </div>
-                        </div>
 
                         <div>
-                            <div className="heading">
-                                <span>Freq' Asked Questions</span>
-                            </div>
-                            <div className="Data">
-                                <Accordion/>
-                            </div>
+                        <div className="Heading-s ml-0 mt-5">
+                            <h2>Freq' Asked Questions</h2>
                         </div>
                         <div>
-
+                            <Accordion className="ml-0"/>
                         </div>
-
                     </div>
+                <div>
+            </div>
 
-                </div>
+        </div>
+
+    </div>
 
                 <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="colbox">
@@ -138,28 +131,18 @@ const Service = () => {
                             Service From A to Z
                         </div>
 
-                        <div>
-
-                            <div className="rightdetail">
-                                <div className="Heading1">
-                                    <h3>Service from to A-Z</h3>
+                                <div className="Heading-s">
+                                    <h4 className="ml-4">Service from to A-Z</h4>
                                 </div>  
-                                <div className="Search">
-                                    <form action="/news" method="get" className="form-group">
-                                        <input 
-                                            className="form-control"
-                                            type="text"
-                                            id="header-search"
-                                            placeholder="Keyword(S)"
-                                            name="s"
-                                        />
-                                        <button type="submit" className="btnsearch"><SearchOutlinedIcon className=""/></button>
-                                    </form>
+                                <div className="sbutton">
+                                    <div className="mt-4">
+                                        <input type="text" placeholder="Keyword(s)..." className="search_box"></input><SearchOutlinedIcon className="search_icons"/>
+                                    </div>
                                 </div>
-                                <div className="Specialist">
-                                    <h3>Specialist Doctor</h3>
+                            <div className="Heading-s">
+                                    <h4 className="ml-4">Specialist Doctor</h4>
                                 </div>
-                                <div className="nameabout col">
+                                <div className="nameabout cols">
                                     <NavLink to="/service"> Children Specialist</NavLink><br/><hr/>
                                     <NavLink to="/service"> Cancer Specialist</NavLink><br/><hr/>
                                     <NavLink to="/service"> Heart Specialist</NavLink><br/><hr/>
@@ -191,10 +174,10 @@ const Service = () => {
                                             <span>an Emergency?</span>
                                         </div>
                                     </div>
-                                    <div className="department">
-                                    <h3>Department Specialist</h3>
+                                    <div className="Heading-s ">
+                                    <h4 className="ml-4">Department Specialist</h4>
                                 </div>
-                                <div className="nameabout col">
+                                <div className="nameabout cols">
                                     <NavLink to="/service"> Geriatric Department</NavLink><br/><hr width="580px"/>
                                     <NavLink to="/service"> Allergists Department</NavLink><br/><hr width="580px"/>
                                     <NavLink to="/service"> Dermatologists Department</NavLink><br/><hr width="580px"/>
@@ -207,9 +190,8 @@ const Service = () => {
                         
 
                         </div>
-                    </div>
-                </div>
-                <div className="col-lg-1"></div>
+                    
+                <div className="col-lg-1"><br/></div>
                 
 
             </div>

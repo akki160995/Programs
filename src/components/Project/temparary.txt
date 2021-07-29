@@ -1,0 +1,7 @@
+<div className="sbutton">
+                    
+                    <div className="mt-4">
+                        <input type="text" placeholder="Keyword(s)..." className="search_box"></input>
+                        <SearchOutlinedIcon className="search_icons"/>
+                    </div>
+                </div>

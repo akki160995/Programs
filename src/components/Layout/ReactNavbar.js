@@ -25,7 +25,7 @@ function ReactNavbar() {
                     </a>
                 </Navbar>
                 <Navbar.Toggle aria-controls=" col-lg-6 col-md-6" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav ">
                         <Nav className="">
                             <Nav>
                                 <NavLink className="nav-link  "exact to="/">Home</NavLink>      
@@ -82,6 +82,8 @@ function ReactNavbar() {
         </div>
               
           </nav>
+
+        
         
                 </div>
     )

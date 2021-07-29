@@ -19,7 +19,9 @@
 }
 .emailtext{
     display: flex;
-    margin-top: 50px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 0px;
 }
 .emailtext input{
     height: 50px;
@@ -28,6 +30,10 @@
     font-size: 20px;
     padding-left: 30px;
     border: 0.5px solid #ddd9d9;
+}
+.btnsend{
+    margin: auto;
+    margin-left: 0px;
 }
 .btnsend a{
     background-color: #f16853;
@@ -46,6 +52,10 @@
     font-family: "Work-Sans", sans-serif;
     font-style: normal;
     border-radius: 6px; 
+}
+.btnsend a:hover{
+    color: #fff;
+    text-decoration: non;
 }
 .newsright{
     width: 405px;
@@ -75,7 +85,7 @@
     
 }
 .showcase a{
-    font-size: 24px; 
+    font-size: 18px; 
     font-weight: 600;
     line-height: 1.7;
     letter-spacing: 2.4px;
@@ -84,29 +94,38 @@
     text-decoration: none;
     text-transform: uppercase;
     padding-left: 0px;
+    
 }
 
 .showcase :hover{
    color: #15374B;
+   text-decoration: none;
+}
+.commentdate1 a:hover{
+    text-decoration: none;
+    color:#f16853;
 }
 .commentdate1 h4{
     padding-top: 0px;
     color: #7a7a7a;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 .commentdate1 p{
     color: #7a7a7a;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .commentdate1 a{
     color: #ea6657;
-    font-size: 18px;
+    font-size: 14px;
     padding-left: 0px;
     text-decoration: none;
+    margin-top: 20px;
 }
 .newsdesc2{
     padding-left: 100px;

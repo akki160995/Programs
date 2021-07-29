@@ -29,7 +29,7 @@ const News = () => {
                 <div className="row align-items-center ">
                     <div className="col-lg-1"></div>
                     <div className=" col-lg-6 col-md-6 col-sm-6 ">
-                        <span className="main_heading "><b>SERVICE	<br/><small>Home &gt; Service</small></b></span>
+                        <span className="main_heading "><b>Archive Post	<br/><small>Home &gt; Post</small></b></span>
                     </div> 
                     <div className=" col-lg-4 col-md-6 col-sm-6 ">
                         <img src={headertabs} className="poster_size" alt="xyz" />
@@ -43,8 +43,8 @@ const News = () => {
             <div className="row">
                 <div className="col-lg-1"></div>
                 <div className="col-lg-6  col-md-6">
-                    <div className="left-Heading">Subscribe Newsletter</div>
-                    <div className="emailtext mb-3">
+                    <div className="left-Heading pl-0">Subscribe <span>Newsletter</span> </div>
+                    <div className="emailtext mb-3 ">
                         <input type="text" id="name" name="email" placeholder="Email"></input>
                         <div className="btnsend"><NavLink to="/department-template-list">Send</NavLink></div>
                     </div>
@@ -86,100 +86,98 @@ const News = () => {
 
         
 
-        <div className="newsdesc">
+        <div className="container">
+            
             <div className="row">
-                    <div className="col-md-4 mb-3 ">
-                          <div className="showcase">
+                    <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="/new-video-showcases-buildings-role-in-pandemic-response/">New Video Showcases<br/>Building’s Role In Pandemic <br/>Response</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 18, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="/new-video-showcases-buildings-role-in-pandemic-response/">Read More » </NavLink>
                           </div>
                     </div>
-                    <div className="col-md-4 mb-3 ">
-                          <div className="showcase">
+                    <div className="col-lg-4 col-md-6 ">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="/mental-health-co-responder-program-extended/">Mental Health Co-Responder<br/>program extended	</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 18, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="/mental-health-co-responder-program-extended/">Read More » </NavLink>
                           </div>
                     </div>
-                    <div className="col-md-4 mb-3 mr-3 ml-3">
-                          <div className="showcase">
+                    <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="/locally-made-masks-introduced/">Locally Made Masks<br/>Introduced	</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 18, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="/locally-made-masks-introduced/">Read More » </NavLink>
                           </div>
                     </div>
-            </div>
-            <div className="newsderight">
-                  <div className="newsdesc4">
-                          <div className="showcase">
+            
+                  <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="">More Calhn Nurses Help<br/>Victoria’s Covid-19 Outbreak</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 18, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="">Read More » </NavLink>
                           </div>
                   </div>
-                  <div className="newsdesc5">
-                          <div className="showcase">
+                  <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="">World-leading Research<br/>Into New Diabetes Drug</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 18, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="">Read More » </NavLink>
                           </div>
                   </div>
-                  <div className="newsdesc6">
-                          <div className="showcase">
+                  <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="">Trial Partnering Mental<br/>Health Clinicians	</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 18, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="">Read More » </NavLink>
                           </div>
                   </div>
-            </div>
-              
-            <div className="last">
-                  <div className="newsdesc7">
-                          <div className="showcase">
+
+                  <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="">Global Webinars Provide The<br/>Invaluable Learnings</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 17, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="">Read More » </NavLink>
                           </div>
                   </div>
-                  <div className="newsdesc8">
-                          <div className="showcase">
+                  <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="">Australian-first 3d-printed<br/>Polymer Breastbone<br/>Procedure</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 17, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="">Read More » </NavLink>
                           </div>
                   </div>
-                  <div className="newsdesc9">
-                          <div className="showcase">
+                  <div className="col-lg-4 col-md-6">
+                          <div className="showcase mb-3 mt-5">
                                <NavLink to="">International partnership to<br/>help  young cancer patients</NavLink>
                           </div>
                           <div className="commentdate1">
                                 <h4>April 16, 2021 / No Comments</h4>
-                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit,<br/> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore<br/> Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
+                                <p>Lorem Ipsum Dolor Sit Amet,Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Scelerisque Purus Semper Eget Duis At</p>
                                 <NavLink to="">Read More » </NavLink>
                           </div>
                   </div>

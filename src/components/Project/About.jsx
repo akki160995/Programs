@@ -113,7 +113,7 @@ const About = () => {
                         <NavLink to="/about"> Geriatric Specialist</NavLink><br/><hr/>
                         <NavLink to="/about"> Obstetrician Specialist</NavLink><br/>
                 </div>
-                <div className="inline_heading">
+                <div className="">
                     <h4>Department Specialist</h4>
                 </div>
                 <div className="nameabout col">
@@ -129,15 +129,11 @@ const About = () => {
                     <h4>Looking <br/> For Something?</h4>
                 </div>
                 <div className="sbutton">
-                    <form action="/news" method="get">
-                        <input
-                            type="text"
-                            id="header-search"
-                            placeholder="Keyword(S)"
-                            name="s"
-                        />
-                        <button type="submit"><SearchOutlinedIcon/></button>
-                    </form>
+                    
+                    <div className="mt-4">
+                        <input type="text" placeholder="Keyword(s)..." className="search_box"></input>
+                        <SearchOutlinedIcon className="search_icons"/>
+                    </div>
                 </div>
                 <div className="nameabout col">    
                     <NavLink to="/about"> View A–Z list of services</NavLink><br/><hr width="560px"/>

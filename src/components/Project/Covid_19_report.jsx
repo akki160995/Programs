@@ -52,50 +52,59 @@ const Covid_19_report = () => {
                             Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. 
                         </p>
 
-                        <div className="EmergencyBox">
-                            <div class="hr-theme-slash-2">
-                                <div class="hr-line"></div>
-                                <div class="hr-icon"><FaAmbulance size="35"/></div>
-                                <div class="hr-line"></div>
-                        </div> 
-                        <div className="border">
-                            <div className="bcovidleft">
-                                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Ut elit tellus,luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <div className="">
+                                <div class="hr-theme-slash-2">
+                                        <div class="hr-icon"><FaAmbulance size="35"/></div>
+                                    </div> 
+                                    <div className="borderEmergency row">
+                                    <div className=" col mt-4">
+                                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Ut elit tellus,luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                    </div>
+                                    <div className=" col">
+                                        <button className="bcovidbtn"><NavLink to="/contact"><p>Emergency</p> </NavLink></button>
+                                    </div>
+
+                                </div> 
                             </div>
-                            <div className="bcovidright">
-                               <NavLink to="/covid-19-report">Emergency </NavLink>
+                            
+
+                        <div className=" container border-left border-right border-top border-bottom mt-3"> 
+
+                            <div className="ReportName mt-4">
+                                <span>Report March 2021</span>
                             </div>
-                        </div> 
+                            <div className="ReportGraph mb-4 ml-3">
+                                <ProgressGraph/>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div className=" container border-left border-right border-top border-bottom mt-3">
+                                <div className="Cname">
+                                    <span >Covid 19 Graph</span><br/>
+                                    <p>2020 - 2021</p>
+                                </div>
+                                <div className="covid19graph">
+                                    <Achart/>
+                                </div>
+                            </div>
 
-                        <div className="ReportName">
-                            <span>Report March 2021</span>
-                        </div>
-                        <div className="ReportGraph">
-                            <ProgressGraph/>
-                        </div>
-                        <div className="CovidGraph">
-                            <div className="Cname">
-                            <span>Covid 19 Graph</span>
-                            <p>2020 - 2021</p>
-                        </div>
-                        <div className="covid19graph">
-                            <Achart/>
-                        </div>
+                            <div className="container">
 
-                        <div className="title3">
-                            <h4>Covid 19 Protocol</h4>
-                        </div>
-                        <div className="para6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>						                
-                        </div>
-                        <div className="points">
-                            <NavLink  to="/covid-19-report">&nbsp;&nbsp; Wash Hand</NavLink><hr/><br/>
-                            <NavLink  to="/covid-19-report"><FaPrescriptionBottleAlt/>&nbsp;&nbsp; Bring Handsanitizer </NavLink><hr/><br/>
-                            <NavLink  to="/covid-19-report"><FaWindowClose/>&nbsp;&nbsp; Keep Distance </NavLink><hr/><br/>
-                            <NavLink  to="/covid-19-report">&nbsp;&nbsp; Wear Mask </NavLink><br/>
-                        </div>
+                                <div className="title3">
+                                    <h4>Covid 19 Protocol</h4>
+                                </div>
+                                <div className="para6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>						                
+                                </div>
+                                <div className="Lists">
+                                    <NavLink className="Li" to="/covid-19-report">&nbsp;&nbsp; Wash Hand</NavLink><hr/>
+                                    <NavLink className="Li" to="/covid-19-report"><FaPrescriptionBottleAlt/>&nbsp;&nbsp; Bring Handsanitizer </NavLink><hr/>
+                                    <NavLink className="Li" to="/covid-19-report"><FaWindowClose/>&nbsp;&nbsp; Keep Distance </NavLink><hr/>
+                                    <NavLink className="Li" to="/covid-19-report">&nbsp;&nbsp; Wear Mask </NavLink>
+                                </div>
 
-                    </div>
+                            </div>
                 
                     </div>
                 
