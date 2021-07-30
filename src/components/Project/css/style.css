@@ -1,4 +1,5 @@
 .Heading-s{
+
     font-size: 18px;
     color: #15374b;
     margin-top: 25px;
@@ -260,3 +261,21 @@ p ,label{
     position: absolute;
 
 }
+
+.posterform img{
+    position: absolute;
+    left: -20px;
+    clip: rect(0px,380px,500px,25px);
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+}
+
+
+/*MAPS*/
+.mapouter{
+    border: #7A7A7A solid 1px;
+    position:relative;text-align:right;width:auto;height:auto;}.gmap_canvas {
+    overflow:hidden;background:none!important;width:auto;height:auto;}.gmap_iframe {
+    width:450px!important;
+    height:300px!important;}

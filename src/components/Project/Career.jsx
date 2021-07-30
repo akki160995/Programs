@@ -40,7 +40,7 @@ const Career = () => {
                 <div className="col-lg-1"></div>
 
                     <div className="col-lg-6  col-md-6">
-                    <div className="left-Heading">Work at <span>WCLH</span></div>
+                    <div className="left-Heading border-left">Work at <span>WCLH</span></div>
                         <div className="title1 mt-2 mb-2"><span>Jobs Career</span> </div>
 
                         <div className="para4">
@@ -80,8 +80,8 @@ const Career = () => {
                             </div>
 
                             
-                                <div className="inline_heading">
-                                    <h4>Search the <br/> Jobe Here</h4>
+                                <div className="Heading-s">
+                                    <h4 className="ml-3">Search the <br/> Jobe Here</h4>
                                 </div>  
                                 <div className="sbutton">
                     
@@ -90,10 +90,10 @@ const Career = () => {
                                         <SearchOutlinedIcon className="search_icons"/>
                                     </div>
                                 </div>
-                                <div className="inline_heading">
-                                    <h4>Job List <br/> From A to Z</h4>
+                                <div className="Heading-s">
+                                    <h4 className="ml-3">Job List <br/> From A to Z</h4>
                                 </div>
-                                <div className="nameabout ">
+                                <div className="nameabout cols ">
                                     <NavLink to="/career"> Children Specialist</NavLink><br/><hr/>
                                     <NavLink to="/career"> Cancer Specialist</NavLink><br/><hr/>
                                     <NavLink to="/career"> Heart Specialist</NavLink><br/><hr/>

@@ -44,14 +44,14 @@ const Department = () => {
             <h1>Contact Department</h1>
             
             <div className="row">
-                <div className="form-group mr-2">
+                <div className="form-group col-lg-4">
                     <label htmlFor="FirstName">First Name  </label>
                     <input type="text" autoComplete="off" 
                     value={makeAppointment.FirstName}
                     onChange={handleInput} className="form-control"
                     name="FirstName" id="Firstname"/>
                 </div>
-                <div className="form-group mr-2">
+                <div className="form-group col-lg-4">
                     <label htmlFor="LastName">Last Name  </label>
                 
                     <input type="text" autoComplete="off" 
@@ -59,17 +59,15 @@ const Department = () => {
                     onChange={handleInput} className="form-control"
                     name="LastName" id="LastName"/>
                 </div>
-                <div className="form-group mr-2">
+                <div className="form-group col-lg-4">
                     <label htmlFor="Phone">Phone  </label>
                     <input type="text" autoComplete="off" 
                     value={makeAppointment.Phone}
                     onChange={handleInput} className="form-control"
                     name="Phone" id="Phone"/>
                 </div>
-            </div>
-        
-            <div className="row">
-                <div className="form-group mr-2">
+            
+                <div className="form-group col-lg-4">
                 <label htmlFor="Email">Email  </label>
                 <input type="text" autoComplete="off" 
                 value={makeAppointment.Email}
@@ -77,7 +75,7 @@ const Department = () => {
                 name="Email" id="Email"/>
                 </div>
 
-                <div className="form-group mr-2">
+                <div className="form-group col-lg-4">
                 <label htmlFor="date">Date  </label>
                 <input type="date" autoComplete="off" 
                 value={makeAppointment.date}
@@ -86,7 +84,7 @@ const Department = () => {
                 </div>
             
 
-                <div className="form-group mr-2">
+                <div className="form-group col-lg-4">
                 <label htmlFor="department">Department  </label>
                 <select type="text" autoComplete="off" 
                 value={makeAppointment.Doctor}
@@ -102,10 +100,7 @@ const Department = () => {
                     <option value="Discarege Lounge">Discarege Lounge</option>    
                 </select>
                 </div>
-            </div>
-
-            <div className="row">
-            <div className="form-group mr-2">
+                <div className="form-group col">
                 <label htmlFor="Message">Message  </label><br />
                 <textarea type="text" 
                 value={makeAppointment.Message}

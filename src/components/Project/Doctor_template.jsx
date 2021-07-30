@@ -13,6 +13,7 @@ import doctor6 from './Images/doctor6.jpg';
 import doctor7 from './Images/doctor7.jpg';
 import doctor8 from './Images/doctor8.jpg';
 import doctor9 from './Images/doctor9.jpg';
+import poster5 from './Images/post-5.jpg';
 import { NavLink } from "react-router-dom"; 
 import Stetoskop from './Images/iconstetoskop.png';
 import Ambulance from './Images/iconambulance.png';
@@ -179,7 +180,6 @@ const Doctor_template = () => {
                         
                     </div>
                     
-                    <Appointment/>
                         
                     </div>
 
@@ -256,6 +256,17 @@ const Doctor_template = () => {
                     </div>
                 </div>
                 <NewsFlex/>
+                <div className="container">
+                <div className="row">
+                    <div className="col-md-8 col-sm-6">
+                        <Appointment/>
+                    </div>
+                    <div className="col-md-4 col-sm-6 posterform">
+                        <img src={poster5} alt="poster5" className=""/>
+                    </div>
+                    </div>
+
+                </div>
                 <Footer/>
         </div>
     </>

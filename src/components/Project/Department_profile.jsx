@@ -12,6 +12,8 @@ import CallIcon from '@material-ui/icons/Call';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Footer from '../Layout/Footer/Footer';
+import poster5 from './Images/post-5.jpg';
+import Appointment from '../Layout/forms/Appointment';
 
 const Department_profile = () => {
   return(
@@ -83,7 +85,25 @@ const Department_profile = () => {
                                     <h3>Office</h3>
                                 </div>
                                 <p className="nameabout col mr-2"><h6>Riverside Building, London, SE-90, East Wing Room, Surgery Department</h6></p>
-                                
+                                <div className="container">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe 
+                        class="gmap_iframe" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=WeCare&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                    <a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">
+                        Friday Night Funkin Mods
+                    </a>
+                </div>
+            </div>
+            </div>
+            
+
                                 <div className="inline_heading">
                                     <h3>Contact </h3>
                                 </div>
@@ -107,7 +127,20 @@ const Department_profile = () => {
             </div>
 
 
+
             <NewsFlex/>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-8 col-sm-6">
+                        <Appointment/>
+                    </div>
+                    <div className="col-md-4 col-sm-6 posterform">
+                        <img src={poster5} alt="poster5" className=""/>
+                    </div>
+                    </div>
+
+                </div>
+            
             <Footer/>
   </>
   );

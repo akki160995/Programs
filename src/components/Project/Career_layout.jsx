@@ -56,12 +56,6 @@ const Career_layout = () => {
                             <NavLink className="Li" to="/career-layout"><VscCircleFilled/>&nbsp;&nbsp;  Prepare your English Certificate </NavLink><hr/>
                             <NavLink className="Li" to="/career-layout"><VscCircleFilled/>&nbsp;&nbsp;  Send to carreer@wclh.co.uk </NavLink>
                         </div>
-                        <div className="Heading-s ml-0">
-                            <h4>Frequently Asked Questions</h4>
-                        </div>
-                        <div className="Heading-s ml-0">
-                            <h5>Apply Now</h5>
-                        </div>
                         <CareerFrm/> 
                     
 

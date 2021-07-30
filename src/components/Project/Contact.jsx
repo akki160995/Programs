@@ -2,7 +2,7 @@ import React from 'react';
 import "./Menu_Name.css";
 import "./Contact.css";
 import Navbar from './Navbar';
-
+import ContactFrm from '../Layout/forms/Contact';
 import headertabs from './Images/slide1.jpg';
 import { NavLink } from "react-router-dom"; 
 import Stetoskop from './Images/iconstetoskop.png';
@@ -71,6 +71,25 @@ const Contact = () => {
                 <div className="para6">
                     <p>Riverside Building, County Hall, South Bank, London SE1 7PB, Inggris Raya</p>						                
                 </div>
+                <div className="container">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe 
+                        class="gmap_iframe" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=WeCare&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                    <a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">
+                        Friday Night Funkin Mods
+                    </a>
+                </div>
+            </div>
+            </div>
+            <ContactFrm/>
+            
                         
 
                     </div>

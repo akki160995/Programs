@@ -36,50 +36,64 @@ const Contact = () =>{
   }
   
   return ( 
-    <>
-      <form action="" onSubmit={handleSubmit}>  
-        <h1>Contact Us</h1>  
-          <label>First Name: </label>   
-          <input type="text" placeholder="Enter Your Name" 
-            value ={userRegistration.FirstName} 
-            onChange={handleInput}
-            name="FirstName" id="FirstName"
-          />  
-          <br/><br/>
+    <div className="container">
+      <h4 className="Header-s mt-4">Contact Us</h4>
+      <form action="" className="form-group" onSubmit={handleSubmit}>  
+        
+          
+          <div className="row">
+
+            <div className="form-group col-lg-6">
+              <label>First Name: </label>   
+              <input type="text" placeholder="Enter Your Name" 
+              value ={userRegistration.FirstName} 
+              onChange={handleInput}
+              className="form-control"
+              name="FirstName" id="FirstName"
+            />  
+            </div>
+            <div className="form-group col-lg-6">
               
           <label>Last Name:</label>
           <input type="text" placeholder="Enter Your Name"  
             value ={userRegistration.LastName} 
             onChange={handleInput}
+            className="form-control"
             name="LastName" id="LastName"
           />  
-          <br/><br/>
-          
+          </div>
+            <div className="form-group col-lg-6">
           <label>Email Id:</label>
           <input type="text" placeholder="Enter Email" 
             value ={userRegistration.Email} onChange={handleInput} 
             name="Email" id="Email"
+            className="form-control"
           />  
-          <br/><br/>
+          </div>
+            <div className="form-group col-lg-6">
                 
           <label>Phone:</label>
           <input type="text" placeholder="Enter Phone Number"  
             value ={userRegistration.Phone} onChange={handleInput}
             name="Phone" id="Phone"
+            className="form-control"
           />  
-          <br/><br/>
+          </div>
+            <div className="form-group col-lg-12">
           
           <label>Message:</label>
           <textarea id="Message" placeholder="Enter Your Address" 
             value ={userRegistration.Address} onChange={handleInput}
             name="Message"  
+            className="form-control"
           />  
-          <br/><br/>
+          </div>
+          </div>
                
-          <button type="submit">Submit</button>  
+          <button type="submit" className="btn btn-primary">Submit</button>  
   
       </form>
-    </>
+    </div>
               
   );
 }  

@@ -9,6 +9,9 @@ import Ambulance from './Images/iconambulance.png';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Footer from '../Layout/Footer/Footer';
+import DepartmentFrm from '../Layout/forms/Department';
+import poster5 from './Images/post-5.jpg';
+
 
 const Department_template = () => {
   return(
@@ -239,6 +242,18 @@ const Department_template = () => {
             </div>                
         
         <NewsFlex/>
+        <div className="container">
+                <div className="row">
+                    <div className="col-md-8 col-sm-6">
+                        <DepartmentFrm/>
+                    </div>
+                    <div className="col-md-4 col-sm-6 posterform">
+                        <img src={poster5} alt="poster5" className=""/>
+                    </div>
+                    </div>
+
+                </div>
+        
         <Footer/>
   </>
   );
