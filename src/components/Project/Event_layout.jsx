@@ -13,7 +13,6 @@ import {FaAllergies} from 'react-icons/fa';
 import {FaRegWindowClose} from 'react-icons/fa';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Footer from '../Layout/Footer/Footer';
-import poster5 from './Images/post-5.jpg';
 import EventLayoutFrm from '../Layout/forms/EventLayout';
 
 const Events_layout = () => {
@@ -74,6 +73,7 @@ const Events_layout = () => {
                                     <div class="mapouter">
                                         <div class="gmap_canvas">
                                             <iframe 
+                                                title="map"
                                                 class="gmap_iframe" 
                                                 frameborder="0" 
                                                 scrolling="no" 

@@ -89,7 +89,8 @@ const Department_profile = () => {
             <div class="mapouter">
                 <div class="gmap_canvas">
                     <iframe 
-                        class="gmap_iframe" 
+                        class="gmap_iframe"
+                        title="map" 
                         frameborder="0" 
                         scrolling="no" 
                         marginheight="0" 

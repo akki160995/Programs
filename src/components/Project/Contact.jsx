@@ -75,6 +75,7 @@ const Contact = () => {
             <div class="mapouter">
                 <div class="gmap_canvas">
                     <iframe 
+                        title="map"
                         class="gmap_iframe" 
                         frameborder="0" 
                         scrolling="no" 
