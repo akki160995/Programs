@@ -7,6 +7,7 @@ import About from "./components/Project/About";
 import Career from "./components/Project/Career";
 import Service from "./components/Project/Service";
 import News from "./components/Project/News";
+import ViewNews from "./components/Admin/News/ViewData";
 import News1 from "./components/Project/News1";
 import News2 from "./components/Project/News2";
 import News3 from "./components/Project/News3";
@@ -35,6 +36,8 @@ const App = () => {
           <Route path="/career" component={Career} />
           <Route path="/service" component={Service} />
           <Route path="/news" component={News}/>
+          <Route path="/news" component={News}/>
+          <Route exact path="/news/view/:id" component={ViewNews}/>          
           <Route path="/new-video-showcases-buildings-role-in-pandemic-response/" component={News1}/>
           <Route path="/mental-health-co-responder-program-extended/" component={News2}/>
           <Route path="/locally-made-masks-introduced/" component={News3}/>

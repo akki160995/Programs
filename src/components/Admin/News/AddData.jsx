@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class newsfrm extends Component {
+class AddData extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
-            heading:'',
-            description:''
+            title:'',
+            body:''
         }
     }
 
@@ -16,7 +16,7 @@ class newsfrm extends Component {
     }
     submitHandler= (e) =>{
         e.preventDefault()
-        axios.post('http://localhost/www/Wecare/News/insert_data.php',this.state)
+        axios.post('http://localhost/www/Wecare/News/insert_news.php',this.state)
         .then(
             response =>{
                 console.log(response)
@@ -29,26 +29,26 @@ class newsfrm extends Component {
     }
     
     render() {
-        const{heading,description}= this.state
+        const{title,body}= this.state
         return (
-            <div className="container-fluid">
+            <div className="container">
                 <form onSubmit={this.submitHandler} className="form-group">
                     <div className="form-group mr-2">
-                        <label htmlFor="heading">heading</label>
+                        <label htmlFor="title">Title</label>
                         <input type="text" 
-                        name="heading" 
-                        value={heading}
-                        placeholder="Enter heading Here"
+                        name="title" 
+                        value={title}
+                        placeholder="Enter Title Here"
                         onChange={this.changeHandler}
                         className="form-control"
                         required
                         />
                     </div>
                     <div className="form-group mr-2">
-                        <label htmlFor="description">description</label>
+                        <label htmlFor="body">Body</label>
                         <textarea 
-                        name="description" 
-                        value={description}
+                        name="body" 
+                        value={body}
                         placeholder="Enter News Description"
                         onChange={this.changeHandler}
                         className="form-control"
@@ -64,4 +64,4 @@ class newsfrm extends Component {
     }
 }
 
-export default newsfrm
+export default AddData

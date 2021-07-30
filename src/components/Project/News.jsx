@@ -62,20 +62,20 @@ const News = () => {
         </div>
         
         <div>
-            <div className="container-fluid">
+            <div className="container">
             <div className="row  ">
             {
             news.map((news,index)=>(
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card-body mr-2 ml-2">
-                    <h5 class="card-title showcase">{news.title}</h5>
+                    <h5 class="card-title">{news.title}</h5>
                     <div className="commentdate1">
                         <p>{news.date} / No Comments</p>
                     </div>
             
                     <p class="card-text max-chars">{news.body}</p>
-                    <a href={`/news/view/${news.id}`} class="">Read...</a>
-                    <NavLink className="btn btn-primary mr-2" to={`/news/view/${news.id}`}>View</NavLink>
+                    <NavLink to={`/news/view/${news.id}`}>Read More...</NavLink>
+                    <a href={`/news/view/${news.id}`} class="">Read More...</a>
                 </div>  
             </div>
             ))
