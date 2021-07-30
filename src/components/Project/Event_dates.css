@@ -98,19 +98,19 @@
     border: 0.6px solid #ebe9e9;
     width: 67px;
     height: 170px;
-    padding-top: 90px;
-    padding-left: 30px;
+    padding-top: 60px;
+    padding-left: 15px;
 }
 .dteventright{
     margin-left: 30px;
 }
 .eventdatedesc{
-    margin-top: 36px;
+    margin-top: 25px;
 }
 .einfo{
   
     font-family: "work Sans",sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: none;
     font-style: normal;
@@ -120,7 +120,7 @@
 }
 .dinfo{
     font-family: "work Sans",sans-serif; 
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
     font-style: normal;
@@ -131,15 +131,11 @@
    
     
 }
-.bline hr{
-    margin-top: 30px;
-    margin-left: 0px;
 
-}
 .eventpara p{
     color: #7a7a7a;
-    padding-top: 16px;
-    font-size: 18px;
+   
+    font-size: 14px;
     font-weight: 500;
     font-family: "work Sans",sans-serif;
     text-transform: capitalize;
@@ -150,7 +146,7 @@
 
 }
 .readevent{
-    margin-top: 25px;
+    margin-top: 2px;
    
 }
 .readevent a{

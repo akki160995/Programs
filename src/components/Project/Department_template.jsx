@@ -38,12 +38,12 @@ const Department_template = () => {
                     <div className="col-lg-1"></div>
 
                     <div className="col-lg-6  col-md-6">
-                        <div className="left-Heading">Contact <span>WCLH</span></div>
+                        <div className="left-Heading border-left">Contact <span>WCLH</span></div>
                         
                         <div className="">
                             <div className="Alphabates">
                                 <div>
-                                    <h3>
+                                    <h4 className="ml-0">
                                         <NavLink exact activeClassName="active_class" to="/department-template-list"> A </NavLink>
                                         <NavLink exact activeClassName="active_class" to="/"> B </NavLink>
                                         <NavLink exact activeClassName="active_class" to="/"> C </NavLink>
@@ -70,11 +70,11 @@ const Department_template = () => {
                                         <NavLink exact activeClassName="active_class" to="/"> X </NavLink>
                                         <NavLink exact activeClassName="active_class" to="/"> Y </NavLink>
                                         <NavLink exact activeClassName="active_class" to="/"> Z </NavLink>
-                                    </h3>
+                                    </h4>
                                 </div>
 
 
-                                <div className="Information">
+                                <div className="container-fluid">
                                     <div className="">
                                         <h4> A </h4><hr  color="#f5ecec"/>
                                         <div className="title1">
@@ -187,22 +187,18 @@ const Department_template = () => {
                             <div className="Header_element">
                                 <strong>WCLH Hotline</strong> 
                             </div>
-                            <div className="Heading1">
-                                <h3>Department from to A-Z</h3>
+                            <div className="Heading-s">
+                                <h4 className="ml-3">Department from to A-Z</h4>
                             </div>  
-                            <div className="Search">
-                                <form action="/news" method="get">
-                                    <input
-                                        type="text"
-                                        id="header-search"
-                                        placeholder="Keyword(S)"
-                                        name="s"
-                                    />
-                                    <button type="submit"><SearchOutlinedIcon/></button>
-                                </form>
+                            <div className="sbutton">
+                    
+                                <div className="mt-4">
+                                    <input type="text" placeholder="Keyword(s)..." className="search_box"></input>
+                                        <SearchOutlinedIcon className="search_icons"/>
+                                </div>
                             </div>
-                            <div className="inline_heading">
-                                <h3>Department By Category</h3>
+                            <div className="Heading-s">
+                                <h4 className="ml-3">Department By Category</h4>
                             </div>
                             <div className="nameabout col">
                                 <NavLink to="/department-template-list"> Children Specialist</NavLink><br/><hr/>

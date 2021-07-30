@@ -43,53 +43,66 @@ const EventDatesLayout = () => {
     }
     return (
         <>
-        <form action="" onSubmit={handleSubmit}>
-            <h1>For More Info</h1>
-            <div>
-                <label htmlFor="FirstName">First Name  </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label htmlFor="LastName">Last Name  </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label htmlFor="Phone">Phone  </label><br />
-            </div>
-            <div>
+        <form action="" onSubmit={handleSubmit} className="form-group">
+            <h4 className="Header-s">For More Info</h4>
+            
+            <div className="row">
+                <div  className="form-group col-lg-4">
+                    <label htmlFor="FirstName">First Name  </label>
                     <input type="text" autoComplete="off" 
                     value={makeAppointment.FirstName}
                     onChange={handleInput}
-                    name="FirstName" id="Firstname"/>&nbsp;&nbsp;&nbsp;
+                    className="form-control"
+                    name="FirstName" id="Firstname"/>
+                </div>
+                <div  className="form-group col-lg-4">
+                    
+                    <label htmlFor="LastName">Last Name  </label>
                     <input type="text" autoComplete="off" 
                     value={makeAppointment.LastName}
                     onChange={handleInput}
-                    name="LastName" id="LastName"/>&nbsp;&nbsp;
+                    className="form-control"
+                    name="LastName" id="LastName"/>
+                </div>
+                <div  className="form-group col-lg-4">
+                    <label htmlFor="Phone">Phone  </label>
                     <input type="text" autoComplete="off" 
                     value={makeAppointment.Phone}
                     onChange={handleInput}
-                    name="Phone" id="Phone"/><br />
+                    className="form-control"
+                    name="Phone" id="Phone"/>
+                </div>
+        
+                <div  className="form-group col-lg-6">
+                    <label htmlFor="Email">Email  </label>
+                    <input type="text" autoComplete="off" 
+                    value={makeAppointment.Email}
+                    onChange={handleInput}
+                    className="form-control"
+                    name="Email" id="Email"/>
+                </div>
+                <div  className="form-group col-lg-6">
+                    <label htmlFor="Team">Team  </label>
+                    <select type="text" autoComplete="off" 
+                    value={makeAppointment.Team}
+                    onChange={handleInput}
+                    className="form-control"
+                    name="Team" id="Team">
+                        <option>Select</option>
+                        <option value="Vaccines">Vaccines</option>
+                        <option value="Seminar">Seminar</option>    
+                    </select>
+                </div>
+                <div  className="form-group col">
+                    <label htmlFor="Message">Message  </label>
+                    <textarea type="text" 
+                    value={makeAppointment.Message}
+                    onChange={handleInput}
+                    className="form-control"
+                    name="Message" id="Message"/>
+                </div>
             </div>
-            <div>
-                <label htmlFor="Email">Email  </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label htmlFor="Team">Team  </label><br />
-            </div>
-            <div>
-                <input type="text" autoComplete="off" 
-                value={makeAppointment.Email}
-                onChange={handleInput}
-                name="Email" id="Email"/>&nbsp;&nbsp;&nbsp;
-                <select type="text" autoComplete="off" 
-                value={makeAppointment.Team}
-                onChange={handleInput}
-                name="Team" id="Team">
-                    <option>Select</option>
-                    <option value="Vaccines">Vaccines</option>
-                    <option value="Seminar">Seminar</option>    
-                </select><br />
-            </div>
-            <div>
-                <label htmlFor="Message">Message  </label><br />
-                <textarea type="text" 
-                value={makeAppointment.Message}
-                onChange={handleInput}
-                name="Message" id="Message"/>
-            </div>
-            <button type="submit">Send</button>
+            <button type="submit" className="btn btn-primary">Send</button>
         </form>
         </>
     )

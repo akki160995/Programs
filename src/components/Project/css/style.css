@@ -275,7 +275,19 @@ p ,label{
 /*MAPS*/
 .mapouter{
     border: #7A7A7A solid 1px;
-    position:relative;text-align:right;width:auto;height:auto;}.gmap_canvas {
-    overflow:hidden;background:none!important;width:auto;height:auto;}.gmap_iframe {
-    width:450px!important;
-    height:300px!important;}
+    position:relative;
+    text-align:right;
+    width:auto;
+    height:auto;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:auto;
+    height:auto;
+}
+.gmap_iframe {
+    width:100%!important;
+
+    height:300px!important;
+}

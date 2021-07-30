@@ -10,15 +10,14 @@
      font-weight: 750;
      word-spacing: 4.5px;
      line-height: 35px;
-     padding-top: 50px;
-     padding-right: 10px;
-     padding-left: 120px; 
+      
  }
  .Alphabates a{
      background-color: #FFF;
      color: #15374B;
      text-decoration: none;
-     margin-left: 65px;
+     margin-left: 25px;
+     margin-top: 50px;
  }
  .Alphabates a:hover{
     background-color: #FFF;
@@ -112,13 +111,9 @@
 .btnView a{
     background-color: #f16853;
     color: white;
-    height: 60px;
-    width: 190px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 20px;
+    padding:10px 15px;
+    margin-left: 0px;
+    font-size: 15px;
     box-sizing: border-box;
     text-align: center;
     text-decoration: none;
@@ -126,13 +121,22 @@
     font-style: normal;
     border-radius: 6px; 
 }
+
 .Link a{
     margin-left: 30px;
     color: #7A7A7A;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     font-family: "Work-Sans", sans-serif;
     font-style: normal;
+}
+.Link a:hover{
+    text-decoration: none;
+}
+.btnView a:hover{
+    background-color: #15374B;
+    color: #FFF;
+    text-decoration: none;
 }
 .rightdetail {
     height: 2800px;

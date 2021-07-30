@@ -83,7 +83,7 @@ const Contact = () => {
                         src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=WeCare&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                     </iframe>
                     <a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">
-                        Friday Night Funkin Mods
+                    
                     </a>
                 </div>
             </div>

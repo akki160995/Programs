@@ -13,6 +13,8 @@ import {FaAllergies} from 'react-icons/fa';
 import {FaRegWindowClose} from 'react-icons/fa';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Footer from '../Layout/Footer/Footer';
+import poster5 from './Images/post-5.jpg';
+import EventLayoutFrm from '../Layout/forms/EventLayout';
 
 const Events_layout = () => {
   return(
@@ -40,23 +42,25 @@ const Events_layout = () => {
                 <div className="row">
                     <div className="col-lg-1"></div>
                     <div className="col-lg-6  col-md-6">
-                        <div className="left-Heading">Vaccinne for Eldery</div>
-                            <div className="left-inlineHeading mt-2 mb-2">
+                        <div className="left-Heading border-left">Vaccinne for Eldery</div>
+                            <div className="Heading-s ml-0">
                                 <h4>Events Overview </h4>
                             </div>
                         
                             <div className="para7">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. </p>						                </div>
-                                <div className="title3">
+                                <div className="Heading-s ml-0">
                                     <h4>Date and Time </h4>
                                 </div>
                                 <div className="para6">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec. Elementum tempus egestas sed sed risus pretium. Placerat in egestas erat imperdiet sed euismod nisi. </p>						                
                                 </div>
                                 <div className="List">
-                                    <div className="LeftList">
-                                        <NavLink  to="/event-layout"><VscCircleFilled/>&nbsp;&nbsp;&nbsp;Vaccine Section 1</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<NavLink  to="/event-layout">21 June: 08.00 Am to 17.00 Pm</NavLink><hr/><br/>
-                                        <NavLink  to="/event-layout"><VscCircleFilled/>&nbsp;&nbsp;&nbsp;Vaccine Section 2</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<NavLink  to="/event-layout">21 Mei: 08.00 Am to 20.00 Pm</NavLink><br/>
+                                    <div className="">
+                                        <NavLink className="Li"  to="/event-layout"><VscCircleFilled/>Vaccine Section 1</NavLink>
+                                        <NavLink className="float-right Li" to="/event-layout">21 June: 08.00 Am to 17.00 Pm</NavLink><hr/>
+                                        <NavLink className="Li" to="/event-layout"><VscCircleFilled/>Vaccine Section 2</NavLink>
+                                        <NavLink className="float-right Li" to="/event-layout">21 Mei: 08.00 Am to 20.00 Pm</NavLink><br/>
                                     </div>
                                 </div>
                                 <div className="title3">
@@ -65,14 +69,26 @@ const Events_layout = () => {
                                 <div className="para6">
                                     <p>East Wing Building, Riverside Building, London, SE-90, East Wing Room, Vaccinne <br/>Department</p>						                
                                 </div>
-                                <div className="title3">
-                                    <h4>Frequently Asked Questions</h4>
-                                </div>
-                                <div className="title3">
-                                    <h4>Registration</h4>
-                                </div>
 
-                            </div>
+                                <div className="container">
+                                    <div class="mapouter">
+                                        <div class="gmap_canvas">
+                                            <iframe 
+                                                class="gmap_iframe" 
+                                                frameborder="0" 
+                                                scrolling="no" 
+                                                marginheight="0" 
+                                                marginwidth="0" 
+                                                src="https://maps.google.com/maps?width=800&amp;height=400&amp;hl=en&amp;q=WeCare&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="Header-s">
+                                    <h2>Frequently Asked Questions</h2>
+                                </div>
+                                <EventLayoutFrm/>
+                                </div>
 
                             <div className="col-lg-4  col-md-6">
                                 <div className="colbox">
@@ -80,22 +96,22 @@ const Events_layout = () => {
                                         <b>Don't Miss Our Events</b>
                                     </div>
 
-                                    <div className="title2">
-                                        <h3>Requirements for Vaccines</h3>
+                                    <div className="Heading-s">
+                                        <h4 className="ml-3">Requirements for Vaccines</h4>
                                     </div>
                                     <div className="para5">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                     </div>
-                                    <div className="Icons">
+                                    <div className="nameabout cols">
                                         <NavLink to="/event-layout"><FaIdCard/>&nbsp;&nbsp; Have United Kingdom ID</NavLink><br/><hr width="580px"/>
                                         <NavLink to="/event-layout"><FaUserClock/>&nbsp;&nbsp; Age Minimum 13 Years Old</NavLink><br/><hr width="580px"/>
                                         <NavLink to="/event-layout"><FaAllergies/>&nbsp;&nbsp; No Allergics</NavLink><br/><hr width="580px"/>
                                         <NavLink to="/event-layout"><FaRegWindowClose/>&nbsp;&nbsp; Never Vaccine Before</NavLink>
                                     </div>
-                                    <div className="title2">
-                                        <h3>Other Events</h3>
+                                    <div className="Heading-s">
+                                        <h4 className="ml-3">Other Events</h4>
                                     </div>
-                                    <div className="OtherEvents">
+                                    <div className="nameabout cols">
                                         <NavLink to="/event-layout"> Vaccine for Eldery</NavLink><br/><hr width="580px"/>
                                         <NavLink to="/event-layout"> Vaccine for Public</NavLink><br/><hr width="580px"/>
                                         <NavLink to="/event-layout"> Folio Vaccine</NavLink><br/><hr width="580px"/>
@@ -132,6 +148,8 @@ const Events_layout = () => {
                     </div>
 
                     <NewsFlex/>
+
+
                     <Footer/>
   </>
   );
