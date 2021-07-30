@@ -15,6 +15,7 @@ import CallIcon from '@material-ui/icons/Call';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import NewsFlex from '../Layout/NewsFlex/NewsFlex';
 import Footer from '../Layout/Footer/Footer';
+import Testimonial from './Testimonial';
 
 const Doctor_profile = () => {
   return(
@@ -143,10 +144,8 @@ const Doctor_profile = () => {
         
         
         
-            <div className="ProfileSlider">
-               <ProfileSlider/> 
-            </div>
-
+            
+            <Testimonial/>
             <NewsFlex/>
             <Footer/>       
   </>

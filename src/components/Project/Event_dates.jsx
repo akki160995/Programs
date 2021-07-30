@@ -5,8 +5,8 @@ import Navbar from './Navbar';
 import headertabs from './Images/headertabs11.jpg';
 import Accordion from "./Accordion";
 import { NavLink } from "react-router-dom"; 
-import iconstetoskop from './Images/iconstetoskop.png';
-import iconambulance from './Images/iconambulance.png';
+import Stetoskop from './Images/iconstetoskop.png';
+import Ambulance from './Images/iconambulance.png';
 import {FaIdCard} from 'react-icons/fa';
 import {FaUserClock} from 'react-icons/fa';
 import {FaAllergies} from 'react-icons/fa';
@@ -251,19 +251,28 @@ const Events_dates = () => {
                                 <NavLink to="/event-dates-layout"> Ophthalmologists Department</NavLink><br/><hr width="580px"/>
                                 <NavLink to="/event-dates-layout"> Ophthalmologists Department</NavLink><br/><hr width="580px"/>
                                 <NavLink to="/event-dates-layout"> Obstetrician/Gynecologists</NavLink>
-                            </div>
-                            <div className="icon1">
-                                <img src={iconstetoskop} alt="icon1" height="150px" width="160px"/>
-                                <div className="icon1Name">
-                                <h3>Booking <br/> your dates Here</h3>
-                                </div>
-                            </div>
-                            <div className="icon2">
-                                <img src={iconambulance} alt="icon2" height="150px" width="160px"/>
-                                <div className="icon2Name">
-                                    <h3>Do you have <br/> an Emergency?</h3>
-                                </div>
-                            </div>
+                            </div><div className="stetoscope">
+                                        <div className="">
+                                            <img src={Stetoskop} alt="Stetoscope"/>
+                                        </div>
+                                        
+                                        <div className="icon_text">
+                                            <span>Booking</span><br/>
+                                            <span>your dates Here</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="ambulance">
+                                        <div>
+                                            <img src={Ambulance} alt="Stetoscope"/>
+                                        </div>
+                                        
+                                        <div className="icon_text">
+                                            <span>Do you have</span><br/>
+                                            <span>an Emergency?</span>
+                                        </div>
+                                    </div>
+                                
 
                         </div>
                     </div>

@@ -42,8 +42,8 @@ const Covid_19_report = () => {
                 <div className="row">
                     <div className="col-lg-1"></div>
                     <div className="col-lg-6  col-md-6">
-                        <div className="left-Heading">Covid 19 <span>Report</span></div>
-                        <div className="left-inline Heading mt-2 mb-2">Overview </div>
+                        <div className="left-Heading border-left">Covid 19 <span>Report</span></div>
+                        <div className=" Heading-s mt-2 mb-2 ml-0"><h4>Overview</h4> </div>
                         <p className="mt-3">
                             Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis auctor elit sed. Dictum varius duis at consectetur lorem donec massa. 
                         </p>
@@ -119,22 +119,22 @@ const Covid_19_report = () => {
                             </div>
 
 
-                            <div className="inline_heading">
-                                <h5>Emergency Hotline</h5>
+                            <div className="Heading-s mt-5">
+                                <h5 className="ml-3">Emergency Hotline</h5>
                             </div>
-                            <div className="nameabout col">
+                            <div className="nameabout cols">
                                 <NavLink to="/covid-19-report"><FaAmbulance/>&nbsp;&nbsp; Emergency: 777 888 999</NavLink><br/><hr width="580px"/>
                                 <NavLink to="/covid-19-report"><RiVirusFill/>&nbsp;&nbsp; Covid 19: 777 888 111</NavLink>
                             </div>
-                            <div className="inline_heading">
-                                <h3>E-Mail Hotline</h3>
+                            <div className="Heading-s mt-5">
+                                <h5 className="ml-3">E-Mail Hotline</h5>
                             </div>
                             <div className="nameabout col">
                                 <NavLink to="/covid-19-report"><BiEnvelope/>&nbsp;&nbsp; info@wclh.co.uk</NavLink><br/><hr width="580px"/>
                                 <NavLink to="/covid-19-report"><FaEnvelope/>&nbsp;&nbsp; report@wclh.co.uk</NavLink>
                             </div>
-                            <div className="inline_heading">
-                                <h3>Department Hotline</h3>
+                            <div className="Heading-s">
+                                <h5 className="ml-3">Department Hotline</h5>
                             </div>
                             <div className="nameabout col">
                                 <NavLink to="/covid-19-report"><FaPhoneAlt/>&nbsp;&nbsp; Covid 19 Emergency Hotline: Ext 888</NavLink><br/><hr width="580px"/>

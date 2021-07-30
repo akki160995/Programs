@@ -17,11 +17,11 @@ function ReactNavbar() {
                 <a className="right " href="./covid-19-report">Information For Patients And Public Goes Here <ArrowForwardOutlinedIcon /></a>
           </div>
           <nav class="over w-100">
-          <div className="container">          
-            <Navbar expand="" className="w-100 row ">
+          <div className="container fixed">          
+            <Navbar expand="lg" className="w-100 row ">
                 <Navbar className="col-lg-6 col-md-6">
                     <a href="./"className="">
-                        <img src={Logo} alt="Logo" className="Logo" />
+                        <img src={Logo} alt="Logo" className="Logo " />
                     </a>
                 </Navbar>
                 <Navbar.Toggle aria-controls=" col-lg-6 col-md-6" />
@@ -82,6 +82,7 @@ function ReactNavbar() {
         </div>
               
           </nav>
+          
 
         
         

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Tables from './Table';
 
 class newsfrm extends Component {
     constructor(props) {
@@ -59,6 +60,7 @@ class newsfrm extends Component {
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </div>
                 </form>
+                <Tables/>
             </div>
         )
     }

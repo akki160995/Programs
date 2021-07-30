@@ -20,45 +20,18 @@ import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 const Home = () => {
     return (
         <div >
-            <div className="fixed">
+            <div>
                 <ReactNavbar className="over"/>
             </div>
             
             <div>
                 <ControlledCarousel className="back"/>
             </div>
-
             <div>
-                <label for="slide-menu-right" class="menu-button">Menu</label>
                 
-                    <div class="slide-menu">
-                        <input id="slide-menu-right" class="menu-toggle" type="checkbox" />
-    <div class="menu-wrap">
-        <label for="slide-menu-right" class="menu-close">Close</label>        
-        <h1 class="menu-title">Menu</h1>
-        <div class="menu-list">
-            <ul>
-                <li>
-                    <a href="/">Broccoli</a>
-                </li>
-                <li>
-                    <a href="/">Tomato</a>
-                </li>
-                <li>
-                    <a href="/">Cucumber</a>
-                </li>
-                <li>
-                    <a href="/">Kale</a>
-                </li>
-                <li>
-                    <a href="/">Celery</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    </div>
             </div>
 
+            
             <div class="container ">
                 <div class="row ml-0 border-left border-right border-bottom border-top">
                     <div class="col-lg-3 m-0 p-0">
