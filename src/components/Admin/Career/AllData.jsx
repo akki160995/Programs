@@ -24,6 +24,10 @@ const AllData = () => {
 
       return (
     <div>
+        <div className="mt-5 mb-5 float-right mr-3">
+                <Link className="btn btn-primary mr-2" to={`/admin/Career/AddData`}>ADD NEW RECORD</Link>
+            </div>
+            
       <div className="container-fluid">
             <div className="py-4">
                 <hr/>
@@ -52,7 +56,7 @@ const AllData = () => {
                                             to={`/admin/Career/edit/${Data.id}`}>
                                             View & Edit
                                         </Link>
-                                        <button className="btn btn-outline-primary" onClick={()=>deletedata(Data.id)}>Delete</button>
+                                        <button className="btn btn-danger" onClick={()=>deletedata(Data.id)}>Delete</button>
                                     </td>
                                     
                                 </tr>

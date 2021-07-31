@@ -24,7 +24,12 @@ const AllData = () => {
 
       return (
     <div>
+        <div className="mt-5 mb-5 float-right mr-3">
+                <Link className="btn btn-primary mr-2" to={`/admin/DeptAppoint/AddData`}>ADD NEW RECORD</Link>
+            </div>
+            
       <div className="container-fluid">
+
             <div className="py-4">
                 <hr/>
                 <table className="table shadow">
@@ -54,7 +59,7 @@ const AllData = () => {
                                             to={`/admin/Dept_Appoint/edit/${Data.id}`}>
                                             Edit
                                         </Link>
-                                        <button className="btn btn-outline-primary" onClick={()=>deletedata(Data.id)}>Delete</button>
+                                        <button className="btn btn-danger" onClick={()=>deletedata(Data.id)}>Delete</button>
                                     </td>
                                     
                                 </tr>

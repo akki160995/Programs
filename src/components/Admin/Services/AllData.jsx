@@ -54,7 +54,7 @@ const AllData = () => {
                                             to={`/admin/Services/edit/${news.id}`}>
                                             Edit
                                         </Link>
-                                        <button className="btn btn-outline-primary" onClick={()=>deletedata(news.id)}>Delete</button>
+                                        <button className="btn btn-danger mt-1" onClick={()=>deletedata(news.id)}>Delete</button>
                                     </td>
                                     
                                 </tr>

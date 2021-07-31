@@ -1,27 +1,34 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route,NavLink } from 'react-router-dom';
-import Appointment from './Appointment/AllData';
 import Switch from 'react-bootstrap/esm/Switch';
+
+import Appointment from './Appointment/AllData';
+import AddAppoint from '../Layout/forms/Appointment';
 import EditAppointment from './Appointment/EditData';
 import ViewAppointment from './Appointment/ViewData';
 
 import Career from './Career/AllData';
+import AddCareer from '../Layout/forms/CareerFrm';
 import EditCareer from './Career/EditData';
 import ViewCareer from './Career/ViewData';
 
 import Contacts from './Contacts/AllData';
+import AddContacts from '../Layout/forms/Contact';
 import EditContacts from './Contacts/EditData';
 import ViewContacts from './Contacts/ViewData';
 
 import DeptAppoint from './DeptAppoint/AllData';
+import AddDeptAppoint from '../Layout/forms/Department';
 import EditDeptAppoint from './DeptAppoint/EditData';
 import ViewDeptAppoint from './DeptAppoint/ViewData';
 
 import EventInfo from './EventInfo/AllData';
+import AddEventInfo from '../Layout/forms/EventLayout';
 import EditEventInfo from './EventInfo/EditData';
 import ViewEventInfo from './EventInfo/ViewData';
 
 import EventRegistration from './EventRegistration/AllData';
+import AddEventRegistration from '../Layout/forms/EventDatesLayout';
 import EditEventRegistration from './EventRegistration/EditData';
 import ViewEventRegistration from './EventRegistration/ViewData';
 
@@ -55,26 +62,32 @@ export class Admin_navbar extends Component {
                     </Switch>
                     
                     <Route  path="/admin/Appointment" component={Appointment}/>
+                    <Route  path="/admin/Appointment/AddData" component={AddAppoint}/>
                     <Route  path="/admin/Appointment/view/:id" component={ViewAppointment}/>
                     <Route  path="/admin/Appointment/edit/:id" component={EditAppointment}/>
 
                     <Route exact path="/admin/Career" component={Career}/>
+                    <Route  path="/admin/Career/AddData" component={AddCareer}/>
                     <Route exact path="/admin/Career/edit/:id" component={EditCareer}/>
                     <Route exact path="/admin/Career/view/:id" component={ViewCareer}/>
 
                     <Route exact path="/admin/Contacts" component={Contacts}/>
+                    <Route  path="/admin/Contacts/AddData" component={AddContacts}/>
                     <Route exact path="/admin/Contacts/edit/:id" component={EditContacts}/>
                     <Route exact path="/admin/Contacts/view/:id" component={ViewContacts}/>
 
                     <Route exact path="/admin/Dept_Appoint" component={DeptAppoint}/>
+                    <Route exact path="/admin/Dept_Appoint/AddData" component={AddDeptAppoint}/>
                     <Route exact path="/admin/Dept_Appoint/edit/:id" component={EditDeptAppoint}/>
                     <Route exact path="/admin/Dept_Appoint/view/:id" component={ViewDeptAppoint}/>
 
                     <Route exact path="/admin/EventInfo" component={EventInfo}/>
+                    <Route exact path="/admin/EventInfo/AddData" component={AddEventInfo}/>
                     <Route exact path="/admin/EventInfo/edit/:id" component={EditEventInfo}/>
                     <Route exact path="/admin/EventInfo/view/:id" component={ViewEventInfo}/>
 
                     <Route exact path="/admin/EventRegistration" component={EventRegistration}/>
+                    <Route exact path="/admin/EventRegistration/AddData" component={AddEventRegistration}/>
                     <Route exact path="/admin/EventRegistration/edit/:id" component={EditEventRegistration}/>
                     <Route exact path="/admin/EventRegistration/view/:id" component={ViewEventRegistration}/>
 

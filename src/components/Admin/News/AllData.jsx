@@ -51,7 +51,7 @@ const AllData = () => {
                                             to={`/admin/News/edit/${news.id}`}>
                                             Edit
                                         </Link>
-                                        <button className="btn btn-outline-primary" onClick={()=>deletedata(news.id)}>Delete</button>
+                                        <button className="btn btn-danger" onClick={()=>deletedata(news.id)}>Delete</button>
                                     </td>
                                     
                                 </tr>
